@@ -24,7 +24,6 @@ class FastRedirectHandler(BaseHTTPRequestHandler):
                 for linea in lineas:
                     if linea.startswith('http://') or linea.startswith('https://'):
                         url_encriptada = urllib.parse.quote_plus(linea)
-                        # Creamos una ruta intermedia en Render para inyectar la velocidad de arranque
                         nueva_lista.append(f"http://{host_header}/bypass?url={url_encriptada}")
                     else:
                         nueva_lista.append(linea)
@@ -52,9 +51,7 @@ class FastRedirectHandler(BaseHTTPRequestHandler):
             
             url_original = urllib.parse.unquote_plus(url_original)
             
-            # En lugar de descargar el video, le decimos a la tele: "Toma, abre este enlace ya validado"
-            # Esto evita que Render procese datos pesados, pero le da el "empujón" inicial a la tele
-            self.send_response(302)  # Redirección temporal rápida
+            self.send_response(302)
             self.send_header('Location', url_original)
             self.send_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
             self.send_header('Connection', 'keep-alive')
