@@ -3,8 +3,8 @@ import urllib.parse
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import sys
 
-# Configuración de Origen
-PASTEBIN_URL = "https://pastebin.com/raw/d8uWicf4"  # Tu lista original con los enlaces de looknowsytes
+# Configuración de Origen - Lista Nueva de Paulo
+PASTEBIN_URL = "https://pastebin.com/raw/Q5V2s2Rd"
 
 class TurboProxyHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
