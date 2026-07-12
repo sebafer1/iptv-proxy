@@ -2,7 +2,11 @@
 import urllib.request
 import time
 import threading
+import logging
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
+
+# Configuración de logging profesional (reemplaza a los prints y no consume CPU)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Tu lista real de Pastebin
 PASTEBIN_URL = "https://pastebin.com/raw/Q5V2s2Rd"
@@ -10,10 +14,10 @@ PASTEBIN_URL = "https://pastebin.com/raw/Q5V2s2Rd"
 # Variables globales para el Hyper-Caché en memoria RAM
 CACHE_DATA = None
 CACHE_TIMESTAMP = 0
-CACHE_TTL = 600  # Tiempo de vida del caché: 10 minutos (600 segundos)
-CACHE_LOCK = threading.Lock()  # Evita descargas duplicadas simultáneas
+CACHE_TTL = 600  # 10 minutos de vida del caché
+CACHE_LOCK = threading.Lock()
 
-# Prefijos válidos dentro de un M3U ampliados
+# Prefijos estándar y estrictos de la norma M3U
 LINEAS_VALIDAS = (
     'http://', 'https://',
     '#EXTM3U', '#EXTINF',
@@ -21,12 +25,11 @@ LINEAS_VALIDAS = (
     '#EXT-X-',
 )
 
-
 def descargar_y_procesar():
-    """Descarga la lista de Pastebin, le inyecta comandos anti-buffer y la guarda en RAM."""
+    """Descarga, limpia de forma estándar y almacena en RAM de manera eficiente."""
     global CACHE_DATA, CACHE_TIMESTAMP
 
-    print("[PRO-LIVE] Hilo de fondo descargando y optimizando...")
+    logging.info("Hilo de fondo: Actualizando lista desde origen de forma limpia.")
     headers = {
         'User-Agent': (
             'Mozilla/5.0 (SmartHub; SMART-TV; Windows NT 10.0; WOW64) '
@@ -41,25 +44,20 @@ def descargar_y_procesar():
     lineas = contenido.splitlines()
     lista_limpia = []
 
-    # Procesamos las líneas e inyectamos los comandos directo a la RAM en segundo plano
     for linea in lineas:
         l = linea.strip()
         if l.startswith(LINEAS_VALIDAS):
-            if l.startswith('#EXTINF'):
-                # Inyección anti-buffer en vivo directo para el reproductor de la TV
-                if "rtmp_live=" not in l:
-                    l = l.replace('#EXTINF:-1', '#EXTINF:-1 cache=0 buffer=0 rtmp_live=1')
+            # Mantenemos la playlist 100% estándar, limpia y compatible con cualquier TV
             lista_limpia.append(l)
 
     resultado_final = "\n".join(lista_limpia)
 
     CACHE_DATA = resultado_final.encode('utf-8')
     CACHE_TIMESTAMP = time.time()
-    print("[PRO-LIVE] ¡Memoria RAM actualizada con éxito desde el hilo de fondo!")
-
+    logging.info("Caché en RAM actualizado con éxito.")
 
 def refrescar_si_hace_falta():
-    """Descarga solo si el caché está vacío o expiró. Usa lock para evitar duplicados."""
+    """Control de vigencia del caché con bloqueo de seguridad."""
     global CACHE_DATA, CACHE_TIMESTAMP
     ahora = time.time()
     if CACHE_DATA is not None and (ahora - CACHE_TIMESTAMP) <= CACHE_TTL:
@@ -72,21 +70,19 @@ def refrescar_si_hace_falta():
                 descargar_y_procesar()
             except Exception as e:
                 if CACHE_DATA is not None:
-                    print(f"[EMERGENCIA] Pastebin lento. Se mantiene caché de respaldo. Error: {e}")
+                    logging.warning(f"Origen lento. Manteniendo caché de respaldo. Detalle: {e}")
                 else:
-                    print(f"[ERROR] Sin caché previo disponible. Falló descarga inicial: {e}")
-
+                    logging.error(f"Error crítico en arranque inicial: {e}")
 
 def hilo_refresco_background():
-    """Hilo esclavo en segundo plano. Mantiene la RAM fresca sin que la TV espere jamás."""
+    """Hilo esclavo en segundo plano: mantiene la lista al día en silencio."""
     while True:
         refrescar_si_hace_falta()
         time.sleep(30)
 
-
-class ChileHyperCacheHandler(BaseHTTPRequestHandler):
+class ChileUltraStandardHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
-        return  # Silencio total de CPU
+        return  # Desactiva los logs por cada petición de la TV para máxima velocidad
 
     def do_GET(self):
         if self.path in ('/playlist.m3u', '/playlist'):
@@ -107,15 +103,14 @@ class ChileHyperCacheHandler(BaseHTTPRequestHandler):
     def _responder_playlist(self):
         global CACHE_DATA
 
-        # Si arranca en frío el servidor y la TV pide la lista antes que el hilo de fondo termine
         if CACHE_DATA is None:
             refrescar_si_hace_falta()
 
         if CACHE_DATA is None:
-            self.send_error(500, "Error crítico: no hay datos disponibles todavía")
+            self.send_error(500, "Datos no disponibles temporalmente")
             return
 
-        # Entrega inmediata desde la RAM a velocidad luz
+        # Despacho instantáneo y óptimo desde la memoria RAM
         self.send_response(200)
         self.send_header('Content-Type', 'application/x-mpegurl; charset=utf-8')
         self.send_header('Connection', 'keep-alive')
@@ -124,29 +119,24 @@ class ChileHyperCacheHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(CACHE_DATA)
 
-
 def run(port=8080):
-    # Precarga síncrona obligatoria al encender el servidor para no partir en blanco
     try:
         descargar_y_procesar()
     except Exception as e:
-        print(f"[AVISO] No se pudo precargar al arrancar: {e}")
+        logging.warning(f"No se pudo precargar la lista al iniciar: {e}")
 
-    # Lanzamos el hilo de refresco asíncrono
     t = threading.Thread(target=hilo_refresco_background, daemon=True)
     t.start()
 
     server_address = ('', port)
-    # Servidor multihilo para atender varias peticiones si es necesario
-    httpd = ThreadingHTTPServer(server_address, ChileHyperCacheHandler)
-    print(f"Servidor Fusionado (Background + Anti-Buffer Live) corriendo en puerto {port}...")
+    httpd = ThreadingHTTPServer(server_address, ChileUltraStandardHandler)
+    logging.info(f"Servidor Profesional Estándar corriendo en puerto {port}...")
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
         pass
     finally:
         httpd.server_close()
-
 
 if __name__ == '__main__':
     run()
