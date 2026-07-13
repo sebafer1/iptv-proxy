@@ -9,8 +9,8 @@ from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 # Configuración de logging profesional (Ultra-rápido, no genera lag de consola)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Tu lista real de Pastebin
-PASTEBIN_URL = "https://pastebin.com/raw/Q5V2s2Rd"
+# Tu NUEVA lista real de Pastebin
+PASTEBIN_URL = "https://pastebin.com/raw/azR86LBR"
 
 # Variables de control para el Hyper-Caché en RAM
 CACHE_DATA = None
@@ -114,10 +114,9 @@ class ChileAntiBufferHandler(BaseHTTPRequestHandler):
         # --- TRUCO MAESTRO DE INGENIERÍA DE REDES (ANTI-BUFFER) ---
         try:
             # Desactivamos el algoritmo de Nagle directamente en el socket de la tele
-            # Esto hace que los paquetes salgan sin delay de espera
             self.connection.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
         except Exception:
-            pass  # En algunos entornos virtuales de hosting puede no aplicarse, pero se intenta siempre
+            pass
 
         self.send_response(200)
         self.send_header('Content-Type', 'application/x-mpegurl; charset=utf-8')
