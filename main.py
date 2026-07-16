@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Servidor de lista IPTV (M3U) - Versión Optimizada y Libre de Token
+Servidor de lista IPTV (M3U) - Versión Corregida y Optimizada
 """
 
 import os
@@ -41,7 +41,7 @@ _rate_hits: dict[str, list[float]] = defaultdict(list)
 
 
 def _descargar_y_procesar_sync() -> bytes:
-    """Descarga la lista original y asegura que se mantengan los nombres de los canales."""
+    """Descarga la lista original asegurando capturar los canales aunque tengan líneas vacías intermedias."""
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -55,19 +55,24 @@ def _descargar_y_procesar_sync() -> bytes:
     lineas = contenido.splitlines()
     lista_limpia = []
     
-    # Cabecera obligatoria
+    # Cabecera obligatoria M3U
     lista_limpia.append("#EXTM3U")
     
     i = 0
     while i < len(lineas):
         linea = lineas[i].strip()
         
-        # Si es la metadata del canal (#EXTINF), la guardamos junto con su link
+        # Si encontramos la etiqueta del canal, buscamos su enlace correspondiente
         if linea.startswith("#EXTINF"):
-            if i + 1 < len(lineas) and lineas[i+1].strip().startswith(("http://", "https://")):
-                lista_limpia.append(linea)                      # Guarda el nombre/logo del canal
-                lista_limpia.append(lineas[i+1].strip())       # Guarda la URL de transmisión
-                i += 2
+            j = i + 1
+            # Avanza buscando la URL válida, saltándose líneas en blanco intermedias
+            while j < len(lineas) and not lineas[j].strip():
+                j += 1
+                
+            if j < len(lineas) and lineas[j].strip().startswith(("http://", "https://", "rtmp://", "rtsp://")):
+                lista_limpia.append(linea)                      # Guarda la metadata/nombre del canal
+                lista_limpia.append(lineas[j].strip())         # Guarda la URL de transmisión real
+                i = j + 1
                 continue
         i += 1
 
@@ -91,7 +96,7 @@ async def refrescar_cache(forzar: bool = False):
             nuevo = await asyncio.to_thread(_descargar_y_procesar_sync)
             CACHE_DATA = nuevo
             CACHE_TIMESTAMP = time.time()
-            log.info("Caché actualizada correctamente en RAM.")
+            log.info("Caché actualizada correctamente en RAM con canales válidos.")
         except Exception as e:
             if CACHE_DATA is not None:
                 log.warning("Fallo al conectar con Pastebin. Usando copia guardada en RAM: %s", e)
@@ -143,8 +148,8 @@ async def playlist(request: Request):
     if CACHE_DATA is None:
         await refrescar_cache(forzar=True)
 
-    if CACHE_DATA is None:
-        return PlainTextResponse("Servicio no disponible temporalmente.", status_code=503)
+    if CACHE_DATA is None or len(CACHE_DATA) <= 8:  # Menor o igual a '#EXTM3U\n'
+        return PlainTextResponse("La lista está vacía o el origen no se procesó bien.", status_code=503)
 
     return Response(
         content=CACHE_DATA,
