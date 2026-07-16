@@ -148,9 +148,10 @@ async def playlist(request: Request):
 
     return Response(
         content=CACHE_DATA,
-        media_type="application/x-mpegurl",
+        media_type="text/plain",
         headers={
             "Access-Control-Allow-Origin": "*",
+            "Content-Disposition": "attachment; filename=playlist.m3u",
             "Cache-Control": "public, max-age=60",
             "X-Accel-Buffering": "no",
         },
