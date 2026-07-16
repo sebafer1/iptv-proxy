@@ -11,7 +11,7 @@ from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Tu lista real de Pastebin
-PASTEBIN_URL = "https://pastebin.com/raw/Q5V2s2Rd"
+PASTEBIN_URL = "https://pastebin.com/raw/8npXdnQm"
 
 # Variables de control para el Hyper-Caché en RAM
 CACHE_DATA = None
