@@ -1,228 +1,191 @@
-# coding: utf-8
-import urllib.request
+# -*- coding: utf-8 -*-
+"""
+Servidor de lista IPTV (M3U) - Versión optimizada para producción / Render.com
+
+Mejoras respecto a la versión original:
+  - FastAPI + Uvicorn (async): soporta cientos de conexiones simultáneas.
+  - Compresión Gzip automática -> respuesta ultra rápida en Smart TVs y redes móviles.
+  - Caché inteligente en RAM con refresco en background (cero esperas en la TV).
+  - Tolerancia a fallos: si falla la descarga, sigue sirviendo la caché previa en RAM.
+  - Seguridad integrada por Token para evitar que terceros accedan a tu lista.
+"""
+
+import os
 import time
-import threading
+import asyncio
 import logging
-import socket
-import re
-from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
+import urllib.request
+from collections import defaultdict
 
-# Configuración de logging profesional (Ultra-rápido, asíncrono en RAM)
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+from fastapi import FastAPI, Request, Query
+from fastapi.responses import Response, PlainTextResponse
+from fastapi.middleware.gzip import GZipMiddleware
 
-# Tu lista real de Pastebin
+# ------------------------------------------------------------------
+# Configuración
+# ------------------------------------------------------------------
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+log = logging.getLogger("iptv")
+
+# URL real de tu Pastebin
 PASTEBIN_URL = "https://pastebin.com/raw/Q5V2s2Rd"
 
-# Variables de control para el Hyper-Caché en RAM
-CACHE_DATA = None
-CACHE_TIMESTAMP = 0
-CACHE_TTL = 600  # 10 minutos de vigencia en RAM
-CACHE_LOCK = threading.Lock()
+# Tu token de seguridad personalizado (puedes cambiarlo por el que quieras)
+TOKEN_SEGURIDAD = "sangre123"
 
-# Filtros ultra-estrictos para mantener el estándar M3U limpio
+CACHE_TTL = 600          # Refrescar el origen cada 10 minutos (600 segundos)
+REFRESH_INTERVAL = 30    # Frecuencia de revisión del estado de la caché (segundos)
+
+# Rate limiting simple por IP
+RATE_LIMIT_MAX = 20
+RATE_LIMIT_WINDOW = 10   # segundos
+
+# Cabeceras y metadatos válidos para no perder nombres ni logos
 LINEAS_VALIDAS = (
-    'http://', 'https://',
-    '#EXTM3U', '#EXTINF',
-    '#EXTGRP', '#EXTVLCOPT',
-    '#EXT-X-'
+    "http://", "https://",
+    "#EXTM3U", "#EXTINF",
+    "#EXTGRP", "#EXTVLCOPT",
+    "#EXT-X-",
 )
 
-# Diccionario inteligente para mapear canales de Chile a sus Logos y EPG oficiales
-# Esto transforma tu lista plana en una interfaz interactiva estilo Zapping
-METADATOS_CANALES = {
-    "tvr": {
-        "tvg-id": "TVR.cl", 
-        "tvg-name": "TVR Chile", 
-        "tvg-logo": "https://i.imgur.com/u7VbY4S.png", 
-        "group-title": "Nacionales Chile"
-    },
-    "mega": {
-        "tvg-id": "Mega.cl", 
-        "tvg-name": "Mega HD", 
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mega_Canal_Chile.png", 
-        "group-title": "Nacionales Chile"
-    },
-    "chilevisión": {
-        "tvg-id": "Chilevision.cl", 
-        "tvg-name": "Chilevisión HD", 
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/0/07/Chilevisi%C3%B3n_2018.png", 
-        "group-title": "Nacionales Chile"
-    },
-    "chv": {
-        "tvg-id": "Chilevision.cl", 
-        "tvg-name": "Chilevisión HD", 
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/0/07/Chilevisi%C3%B3n_2018.png", 
-        "group-title": "Nacionales Chile"
-    },
-    "tvn": {
-        "tvg-id": "TVN.cl", 
-        "tvg-name": "TVN HD", 
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/2/22/Televisi%C3%B3n_Nacional_de_Chile_2020.png", 
-        "group-title": "Nacionales Chile"
-    },
-    "canal 13": {
-        "tvg-id": "Canal13.cl", 
-        "tvg-name": "Canal 13 HD", 
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal_13_Chile_logo.png", 
-        "group-title": "Nacionales Chile"
-    },
-    "c13": {
-        "tvg-id": "Canal13.cl", 
-        "tvg-name": "Canal 13 HD", 
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal_13_Chile_logo.png", 
-        "group-title": "Nacionales Chile"
-    },
-    "cnn chile": {
-        "tvg-id": "CNNChile.cl", 
-        "tvg-name": "CNN Chile", 
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/CNN_Chile_Logo.png", 
-        "group-title": "Noticias"
-    },
-    "tnt sports": {
-        "tvg-id": "TNTSports.cl", 
-        "tvg-name": "TNT Sports HD", 
-        "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/a/ae/TNT_Sports_Chile_2021.png", 
-        "group-title": "Deportes"
-    }
-}
+# ------------------------------------------------------------------
+# Estado en memoria (Caché + Rate Limit)
+# ------------------------------------------------------------------
+CACHE_DATA: bytes | None = None
+CACHE_TIMESTAMP: float = 0.0
+CACHE_LOCK = asyncio.Lock()
 
-def enriquecer_metadata_linea(linea):
-    """
-    Analiza una línea #EXTINF y le inyecta dinámicamente logos, tags de EPG
-    y categorías de forma automática basándose en el nombre del canal.
-    """
-    linea_lower = linea.lower()
-    for clave, meta in METADATOS_CANALES.items():
-        if clave in linea_lower:
-            # Extraemos el nombre original que está al final después de la última coma
-            partes = linea.split(',', 1)
-            nombre_canal = partes[1] if len(partes) > 1 else "Canal Sin Nombre"
-            
-            # Construimos la cabecera M3U con el estándar interactivo completo
-            nueva_linea = (
-                f'#EXTINF:-1 tvg-id="{meta["tvg-id"]}" tvg-name="{meta["tvg-name"]}" '
-                f'tvg-logo="{meta["tvg-logo"]}" group-title="{meta["group-title"]}",{nombre_canal}'
-            )
-            return nueva_linea
-    return linea
+_rate_hits: dict[str, list[float]] = defaultdict(list)
 
-def descargar_y_procesar():
-    """
-    Descarga la lista desde Pastebin, la limpia, le inyecta la metadata premium
-    y la almacena en la Hyper-Caché de la memoria RAM del servidor.
-    """
-    global CACHE_DATA, CACHE_TIMESTAMP
-    
-    logging.info("Optimización de red: Descargando lista limpia desde origen.")
+
+def _descargar_y_procesar_sync() -> bytes:
+    """Descarga y limpia la lista M3U sin bloquear el flujo principal."""
     headers = {
-        'User-Agent': (
-            'Mozilla/5.0 (SmartHub; SMART-TV; Windows NT 10.0; Win64; x64) '
-            'AppleWebKit/537.36 (KHTML, like Gecko) TV-Browser'
+        "User-Agent": (
+            "Mozilla/5.0 (SmartHub; SMART-TV; Windows NT 10.0; WOW64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) TV Safari/537.36"
         )
     }
+    req = urllib.request.Request(PASTEBIN_URL, headers=headers)
+    with urllib.request.urlopen(req, timeout=8) as response:
+        contenido = response.read().decode("utf-8", errors="ignore")
+
+    lista_limpia = []
+    lineas = contenido.splitlines()
     
-    try:
-        req = urllib.request.Request(PASTEBIN_URL, headers=headers)
-        with urllib.request.urlopen(req, timeout=8) as response:
-            contenido = response.read().decode('utf-8')
+    # Asegurar cabecera obligatoria
+    lista_limpia.append("#EXTM3U")
+    
+    i = 0
+    while i < len(lineas):
+        linea = lineas[i].strip()
         
-        lineas = contenido.splitlines()
-        lista_limpia = []
-        
-        # Inyectamos la cabecera M3U apuntando a una guía EPG chilena compatible
-        lista_limpia.append('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/HeliosDe/EPG-Chile/master/epg.xml"')
-        
-        ultima_linea_info = None
-        
-        for linea in lineas:
-            l = linea.strip()
-            if not l:
+        # Si es la metadata del canal (#EXTINF), verificamos que la línea siguiente sea el link
+        if linea.startswith("#EXTINF"):
+            if i + 1 < len(lineas) and lineas[i+1].strip().startswith(("http://", "https://")):
+                lista_limpia.append(linea)                      # Agrega nombre/logo/grupo
+                lista_limpia.append(lineas[i+1].strip())       # Agrega enlace de transmisión
+                i += 2
                 continue
-                
-            # Validamos que cumpla con los estándares de seguridad
-            if l.startswith(LINEAS_VALIDAS):
-                if l.startswith('#EXTM3U'):
-                    continue  # Saltamos el EXTM3U original para usar el nuestro con la EPG
-                
-                if l.startswith('#EXTINF'):
-                    # Procesamos y guardamos temporalmente la metadata para enriquecerla
-                    ultima_linea_info = enriquecer_metadata_linea(l)
-                else:
-                    # Es una URL de transmisión
-                    if ultima_linea_info:
-                        lista_limpia.append(ultima_linea_info)
-                        lista_limpia.append(l)
-                        ultima_linea_info = None
-                    else:
-                        # URL suelta sin información previa
-                        lista_limpia.append(f'#EXTINF:-1,Canal Sin Nombre')
-                        lista_limpia.append(l)
+        i += 1
 
-        # Unimos todo el resultado estructurado
-        resultado_final = "\n".join(lista_limpia)
-        
-        with CACHE_LOCK:
-            CACHE_DATA = resultado_final.encode('utf-8')
-            CACHE_TIMESTAMP = time.time()
-            
-        logging.info("¡Hyper-Caché optimizada e inyectada con éxito en la RAM!")
-        
-    except Exception as e:
-        logging.error(f"Error crítico en actualización automática: {e}")
+    resultado = "\n".join(lista_limpia)
+    return resultado.encode("utf-8")
 
-def obtener_lista_m3u():
-    """
-    Retorna la lista de canales almacenada. Si la caché expiró (más de 10 min),
-    dispara la recarga automática sin interrumpir el servicio.
-    """
+
+async def refrescar_cache(forzar: bool = False):
     global CACHE_DATA, CACHE_TIMESTAMP
-    ahora = time.time()
-    
-    if CACHE_DATA is None or (ahora - CACHE_TIMESTAMP) > CACHE_TTL:
-        # En segundo plano para velocidad máxima de respuesta
-        threading.Thread(target=descargar_y_procesar).start()
-        if CACHE_DATA is None:
-            # Espera activa la primera vez que se monta
-            while CACHE_DATA is None:
-                time.sleep(0.1)
-                
-    return CACHE_DATA
 
-class ServidorPremiumIPTV(BaseHTTPRequestHandler):
-    def log_message(self, format, *args):
-        # Desactivamos los logs molestos de accesos HTTP en la terminal para limpieza
+    ahora = time.time()
+    if not forzar and CACHE_DATA is not None and (ahora - CACHE_TIMESTAMP) <= CACHE_TTL:
         return
 
-    def do_GET(self):
-        # Ruta principal del playlist limpia como Zapping
-        if self.path == '/playlist':
-            try:
-                datos_m3u = obtener_lista_m3u()
-                self.send_response(200)
-                self.send_header('Content-Type', 'application/x-mpegurl; charset=utf-8')
-                self.send_header('Content-Length', str(len(datos_m3u)))
-                self.send_header('Access-Control-Allow-Origin', '*')
-                self.end_headers()
-                self.wfile.write(datos_m3u)
-            except Exception as e:
-                self.send_error(500, f"Error Interno: {e}")
-        else:
-            self.send_error(404, "Recurso no encontrado. Usa /playlist")
+    async with CACHE_LOCK:
+        ahora = time.time()
+        if not forzar and CACHE_DATA is not None and (ahora - CACHE_TIMESTAMP) <= CACHE_TTL:
+            return
 
-def run():
-    # El puerto 80 ya está habilitado gracias a tus privilegios root
-    puerto = 80
-    server_address = ('', puerto)
-    httpd = ThreadingHTTPServer(server_address, ServidorPremiumIPTV)
-    logging.info(f"Servidor Anti-Buffer 5000% (Modo Zapping Premium) corriendo en puerto {puerto}...")
-    try:
-        httpd.serve_forever()
-    except KeyboardInterrupt:
-        pass
-    finally:
-        httpd.server_close()
+        try:
+            nuevo = await asyncio.to_thread(_descargar_y_procesar_sync)
+            CACHE_DATA = nuevo
+            CACHE_TIMESTAMP = time.time()
+            log.info("Caché actualizada en RAM de forma exitosa.")
+        except Exception as e:
+            if CACHE_DATA is not None:
+                log.warning("Fallo al refrescar origen. Sirviendo copia previa en caché: %s", e)
+            else:
+                log.error("Fallo crítico: No hay caché previa y el origen falló: %s", e)
 
-if __name__ == '__main__':
-    # Lanzar descarga inicial
-    descargar_y_procesar()
-    run()
+
+async def hilo_refresco_background():
+    """Mantiene la caché fresca en segundo plano."""
+    while True:
+        await refrescar_cache()
+        await asyncio.sleep(REFRESH_INTERVAL)
+
+
+def rate_limit_ok(ip: str) -> bool:
+    """Evita abusos de peticiones repetidas."""
+    ahora = time.time()
+    hits = _rate_hits[ip]
+    while hits and ahora - hits[0] > RATE_LIMIT_WINDOW:
+        hits.pop(0)
+    if len(hits) >= RATE_LIMIT_MAX:
+        return False
+    hits.append(ahora)
+    return True
+
+
+# ------------------------------------------------------------------
+# App FastAPI
+# ------------------------------------------------------------------
+app = FastAPI()
+app.add_middleware(GZipMiddleware, minimum_size=500)
+
+
+@app.on_event("startup")
+async def startup():
+    await refrescar_cache(forzar=True)
+    asyncio.create_task(hilo_refresco_background())
+    log.info("Servidor IPTV Iniciado. Listo para recibir conexiones.")
+
+
+@app.get("/playlist")
+@app.get("/playlist.m3u")
+async def playlist(request: Request, token: str = Query(None, description="Token de acceso seguro")):
+    # 1. Validación de seguridad obligatoria por Token
+    if token != TOKEN_SEGURIDAD:
+        return PlainTextResponse("Acceso denegado: Token inválido o no proporcionado.", status_code=403)
+
+    # 2. Rate Limiting por IP
+    ip = request.client.host if request.client else "desconocido"
+    if not rate_limit_ok(ip):
+        return PlainTextResponse("Demasiadas solicitudes. Intente en unos segundos.", status_code=429)
+
+    # 3. Respuesta desde memoria RAM
+    if CACHE_DATA is None:
+        await refrescar_cache(forzar=True)
+
+    if CACHE_DATA is None:
+        return PlainTextResponse("Servicio temporalmente no disponible.", status_code=503)
+
+    return Response(
+        content=CACHE_DATA,
+        media_type="application/x-mpegurl",
+        headers={
+            "Access-Control-Allow-Origin": "*",
+            "Cache-Control": "public, max-age=60",
+            "X-Accel-Buffering": "no",
+        },
+    )
+
+
+@app.get("/health")
+async def health():
+    return {"status": "ok", "cache_age_seconds": time.time() - CACHE_TIMESTAMP}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8080))
+    uvicorn.run(app, host="0.0.0.0", port=port)
