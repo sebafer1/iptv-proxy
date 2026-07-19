@@ -1,0 +1,929 @@
+#EXTM3U
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:stream-filter=xtream
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+#EXTVLCOPT:no-video-filter
+#EXTVLCOPT:no-audio-filter
+#EXTVLCOPT:tcp-nodelay=true
+#EXTVLCOPT:ipv4-timeout=3
+#EXTVLCOPT:prefetch-buffer=500
+#EXTVLCOPT:stream-buffer-size=4096
+#EXTVLCOPT:drop-late-frames=true
+#EXTVLCOPT:skip-frames=true
+#EXTVLCOPT:clock-synchro=0
+
+# === CANALES DE TELEVISIÓN - OPTIMIZADO PARA CHILE ===
+
+# --- NACIONALES ---
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="1. LA RED",1. LA RED
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288556
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="2. CHILEVISIÓN FHD",2. CHILEVISIÓN FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288540
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="3. CANAL 13 FHD",3. CANAL 13 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288530
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="4. MEGA FHD",4. MEGA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288545
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="5. TVN FHD",5. TVN FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288547
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="6. 24 HORAS",6. 24 HORAS
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/612
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="7. CNN CHILE",7. CNN CHILE
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/621
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="8. TNT SPORTS",8. TNT SPORTS
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/801
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="9. TNT SPORTS PREMIUM FHD",9. TNT SPORTS PREMIUM FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/631
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="10. TNT SPORTS 3",10. TNT SPORTS 3
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/634
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="11. CDO PRIMA",11. CDO PRIMA
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/617
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="12. VIA X",12. VIA X
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/624
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="13. REC TV",13. REC TV
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/629
+
+# --- PELÍCULAS Y SERIES ---
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="14. AMC FHD",14. AMC FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/46
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="15. AXN FHD",15. AXN FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/47
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="16. CINE FAMILIAR FHD",16. CINE FAMILIAR FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/81
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="17. CINE HISPANO FHD",17. CINE HISPANO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/76
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="18. CINE PREMIUM FHD",18. CINE PREMIUM FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/79
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="19. CINECANAL FHD",19. CINECANAL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/48
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="20. CINEMAX FHD",20. CINEMAX FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/50
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="21. CLOVER CHANNEL FHD",21. CLOVER CHANNEL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/80
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="22. DHE FHD",22. DHE FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/53
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="23. EUROPA EUROPA FHD",23. EUROPA EUROPA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/54
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="24. FX FHD",24. FX FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/56
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="25. GOLDEN FHD",25. GOLDEN FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/57
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="26. GOLDEN EDGE FHD",26. GOLDEN EDGE FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/58
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="27. GOLDEN PLUS FHD",27. GOLDEN PLUS FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/59
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="28. GOLDEN PREMIER FHD",28. GOLDEN PREMIER FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/61
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="29. GOLDEN PREMIER 2 FHD",29. GOLDEN PREMIER 2 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/60
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="30. HBO FHD",30. HBO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/62
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="31. HBO 2 FHD",31. HBO 2 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/63
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="32. HBO FAMILY FHD",32. HBO FAMILY FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/64
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="33. HBO MUNDI FHD",33. HBO MUNDI FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/65
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="34. HBO POP FHD",34. HBO POP FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/66
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="35. HBO SIGNATURE FHD",35. HBO SIGNATURE FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/67
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="36. HBO XTREME FHD",36. HBO XTREME FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/68
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="37. HBO+ FHD",37. HBO+ FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/69
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="38. MULTIPREMIER FHD",38. MULTIPREMIER FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/82
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="39. MY TIME NETWORK FHD",39. MY TIME NETWORK FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/72
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="40. PÁNICO FHD",40. PÁNICO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/73
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="41. PARAMOUNT CHANNEL FHD",41. PARAMOUNT CHANNEL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/74
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="42. RUN:TiME FHD",42. RUN:TiME FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/88
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="43. SONY CHANNEL FHD",43. SONY CHANNEL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/75
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="44. SONY MOVIES FHD",44. SONY MOVIES FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/77
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="45. SPACE FHD",45. SPACE FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/78
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="46. STAR CHANNEL FHD",46. STAR CHANNEL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/55
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="47. STUDIO UNIVERSAL FHD",47. STUDIO UNIVERSAL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/83
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="48. TNT FHD",48. TNT FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/86
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="49. TNT NOVELAS FHD",49. TNT NOVELAS FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/85
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="50. TNT SERIES FHD",50. TNT SERIES FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/87
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="51. CANAL UNIVERSAL FHD",51. CANAL UNIVERSAL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/89
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="52. CINE UNIVERSAL FHD",52. CINE UNIVERSAL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/90
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="53. UNIVERSAL COMEDY FHD",53. UNIVERSAL COMEDY FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/91
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="54. CRIMEN UNIVERSAL FHD",54. CRIMEN UNIVERSAL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/92
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="55. UNIVERSAL PREMIERE FHD",55. UNIVERSAL PREMIERE FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/93
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="56. UNIVERSAL REALITY FHD",56. UNIVERSAL REALITY FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/94
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="57. USA CHANNEL FHD",57. USA CHANNEL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/84
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="58. WARNER TV FHD",58. WARNER TV FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/95
+
+# --- ENTRETENIMIENTO Y DOCUMENTALES ---
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="59. A&E FHD",59. A&E FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/186
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="60. ANIMAL PLANET FHD",60. ANIMAL PLANET FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/187
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="61. TV COCINA FHD",61. TV COCINA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/214
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="62. COMEDY CENTRAL FHD",62. COMEDY CENTRAL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/188
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="63. DISCOVERY CHANNEL FHD",63. DISCOVERY CHANNEL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/189
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="64. DISCOVERY FAMILIA FHD",64. DISCOVERY FAMILIA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/190
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="65. DISCOVERY HOME & HEALTH FHD",65. DISCOVERY HOME & HEALTH FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/191
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="66. DISCOVERY INVESTIGATION FHD",66. DISCOVERY INVESTIGATION FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/192
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="67. DISCOVERY SCIENCE FHD",67. DISCOVERY SCIENCE FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/193
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="68. DISCOVERY THEATER FHD",68. DISCOVERY THEATER FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/194
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="69. DISCOVERY TURBO FHD",69. DISCOVERY TURBO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/195
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="70. DISCOVERY WORLD FHD",70. DISCOVERY WORLD FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/196
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="71. DISTRITO COMEDIA FHD",71. DISTRITO COMEDIA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/197
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="72. E! ENTERTAINMENT FHD",72. E! ENTERTAINMENT FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/198
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="73. FOOD NETWORK FHD",73. FOOD NETWORK FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/202
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="74. GOURMET FHD",74. GOURMET FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/212
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="75. HISPANIA TV FHD",75. HISPANIA TV FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/201
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="76. HISTORY FHD",76. HISTORY FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/205
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="77. HISTORY 2 FHD",77. HISTORY 2 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/206
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="78. HOLA TV FHD",78. HOLA TV FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/207
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="79. KANAL D FHD",79. KANAL D FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/208
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="80. LOVE NATURE FHD",80. LOVE NATURE FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/209
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="81. NATIONAL GEOGRAPHIC FHD",81. NATIONAL GEOGRAPHIC FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/210
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="82. NATIONAL GEOGRAPHIC MUNDO FHD",82. NATIONAL GEOGRAPHIC MUNDO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/199
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="83. PASIONES FHD",83. PASIONES FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/211
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="84. SUN CHANNEL FHD",84. SUN CHANNEL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/204
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="85. TLC FHD",85. TLC FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/213
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="86. FHD UNICABLE",86. FHD UNICABLE
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/215
+
+# --- INFANTILES ---
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="87. CARTOON NETWORK FHD",87. CARTOON NETWORK FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680424.m3u8
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="88. CARTOONITO FHD",88. CARTOONITO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680440.m3u8
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="89. DISCOVERY KIDS FHD",89. DISCOVERY KIDS FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680426.m3u8
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="90. DISNEY CHANNEL FHD",90. DISNEY CHANNEL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680425.m3u8
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="91. DISNEY JR FHD",91. DISNEY JR FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680427.m3u8
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="92. NICK FHD",92. NICK FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680428.m3u8
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="93. NICK JR FHD",93. NICK JR FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680429.m3u8
+
+# --- DEPORTES (continuación) ---
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="94. BEIN DEPORTES FHD",94. BEIN DEPORTES FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/154
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="95. BEIN SPORTS XTRA FHD",95. BEIN SPORTS XTRA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/94173
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="96. DIRECTV DEPORTES 2 FHD",96. DIRECTV DEPORTES 2 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/123
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="97. DIRECTV SPORTS + FHD",97. DIRECTV SPORTS + FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/122
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="98. DIRECTV SPORTS FIGHT FHD",98. DIRECTV SPORTS FIGHT FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/124
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="99. DIRECTV SPORTS FHD",99. DIRECTV SPORTS FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/121
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="100. DIRECTV DEPORTES UHD",100. DIRECTV DEPORTES UHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/158
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="101. ESPN 2 FHD",101. ESPN 2 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/156
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="102. ESPN 2 MÉXICO FHD",102. ESPN 2 MÉXICO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/146
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="103. ESPN 2 UHD",103. ESPN 2 UHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/119402
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="104. ESPN 3 FHD",104. ESPN 3 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/133
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="105. ESPN 3 MÉXICO FHD",105. ESPN 3 MÉXICO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/147
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="106. ESPN 3 UHD",106. ESPN 3 UHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/189502
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="107. ESPN 4 FHD",107. ESPN 4 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/135
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="108. ESPN 4 UHD",108. ESPN 4 UHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/322
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="109. ESPN 5 FHD",109. ESPN 5 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/134
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="110. ESPN 6 FHD",110. ESPN 6 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/140
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="111. ESPN 7 FHD",111. ESPN 7 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/139
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="112. ESPN FHD",112. ESPN FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/126
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="113. ESPN MÉXICO FHD",113. ESPN MÉXICO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/145
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="114. ESPN PREMIUM ARGENTINA FHD",114. ESPN PREMIUM ARGENTINA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/136
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="115. ESPN PREMIUM CHILE FHD",115. ESPN PREMIUM CHILE FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/118921
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="116. ESPN UHD",116. ESPN UHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/118929
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="117. FOX SPORTS ARGENTINA FHD",117. FOX SPORTS ARGENTINA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/137
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="118. FOX SPORTS ARGENTINA 2 FHD",118. FOX SPORTS ARGENTINA 2 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/128
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="119. FOX SPORTS ARGENTINA 3 FHD",119. FOX SPORTS ARGENTINA 3 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/131
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="120. FOX SPORTS MÉXICO FHD",120. FOX SPORTS MÉXICO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/148
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="121. FOX SPORTS MÉXICO 2 FHD",121. FOX SPORTS MÉXICO 2 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/149
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="122. FOX SPORTS MÉXICO 3 FHD",122. FOX SPORTS MÉXICO 3 FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/150
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="123. FOX SPORTS PREMIUM MÉXICO FHD",123. FOX SPORTS PREMIUM MÉXICO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/151
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="124. TNT SPORTS ARGENTINA FHD",124. TNT SPORTS ARGENTINA FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/141
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="125. TUDN MÉXICO FHD",125. TUDN MÉXICO FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/152
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="126. TVC DEPORTES FHD",126. TVC DEPORTES FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/153
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="127. TYC SPORTS FHD",127. TYC SPORTS FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/142
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="128. TYC SPORTS INTERNACIONAL FHD",128. TYC SPORTS INTERNACIONAL FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/155
+
+#EXTINF:-1 group-title="Canales de Televisión" tvg-logo="" tvg-id="" tvg-name="129. WWE NETWORK FHD",129. WWE NETWORK FHD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/RESMIO/12345TV/160
