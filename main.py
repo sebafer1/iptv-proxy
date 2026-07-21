@@ -1,43 +1,46 @@
 # -*- coding: utf-8 -*-
 import os
 import logging
-import time
 from fastapi import FastAPI
 from fastapi.responses import PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("iptv-proxy")
+logger = logging.getLogger("iptv-proxy-turbo")
 
-app = FastAPI()
-app.add_middleware(GZipMiddleware, minimum_size=500)
+app = FastAPI(title="IPTV Proxy Ultra Speed")
+
+# Compresión GZip para transferencia ultra rápida del archivo M3U
+app.add_middleware(GZipMiddleware, minimum_size=256)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=False,   # con allow_origins=["*"] esto debe ir en False
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 ARCHIVO_M3U = os.environ.get("M3U_PATH", os.path.join(os.path.dirname(__file__), "lista.m3u"))
 
-OPCIONES_ANTIBUFFER = [
-    "#EXTVLCOPT:network-caching=4000",
-    "#EXTVLCOPT:live-caching=4000",
-    "#EXTVLCOPT:http-reconnect=true",
-    "#EXTVLCOPT:http-continuous=true",
-    "#EXTVLCOPT:tcp-nodelay=true",
-    "#EXTVLCOPT:ipv4-timeout=5",
-    "#EXTVLCOPT:prefetch-buffer=2048",
-    "#EXTVLCOPT:stream-buffer-size=16384",
-    "#EXTVLCOPT:drop-late-frames=true",
-    "#EXTVLCOPT:skip-frames=true",
+# Directivas avanzadas Anti-Buffer y de Cambio Rápido de Canal (Low-Latency)
+OPCIONES_TURBO = [
+    "#EXTVLCOPT:network-caching=2000",       # Colchón optimizado para respuesta rápida
+    "#EXTVLCOPT:live-caching=2000",          # Carga fluida en transmisiones en vivo
+    "#EXTVLCOPT:clock-synchro=0",            # Desactiva la espera de reloj para inicio instantáneo
+    "#EXTVLCOPT:http-reconnect=true",        # Auto-reconexión inmediata ante caídas breves
+    "#EXTVLCOPT:http-continuous=true",       # Flujo de datos HTTP ininterrumpido
+    "#EXTVLCOPT:tcp-nodelay=true",           # Envío inmediato de paquetes TCP sin latencia
+    "#EXTVLCOPT:ipv4-timeout=3",             # Cancelación y reintento rápido si un servidor no responde
+    "#EXTVLCOPT:prefetch-buffer=4096",       # Pre-carga en caché de paquetes de video
+    "#EXTVLCOPT:stream-buffer-size=32768",   # Búfer extendido a 32KB en memoria RAM
+    "#EXTVLCOPT:drop-late-frames=true",      # Salta cuadros con retraso para mantener tiempo real
+    "#EXTVLCOPT:skip-frames=true",            # Previene congelamientos de pantalla
+    "#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20" # Camuflaje de cliente para evitar bloqueos
 ]
 
-# --- Caché simple en memoria basada en la fecha de modificación del archivo ---
+# Caché inteligente en memoria para respuesta a nivel de milisegundos
 _cache = {"mtime": None, "contenido": None}
-
 
 def procesar_lista_local() -> str:
     try:
@@ -86,10 +89,8 @@ def procesar_lista_local() -> str:
                     j += 1
 
                 if enlace_encontrado:
-                    # 👇 Clave: las opciones van justo ANTES de la URL de CADA canal,
-                    # no una sola vez al principio del archivo.
                     lista_limpia.append(bloque_canal[0])
-                    lista_limpia.extend(OPCIONES_ANTIBUFFER)
+                    lista_limpia.extend(OPCIONES_TURBO)
                     lista_limpia.append(bloque_canal[1])
                     i = j + 1
                     continue
@@ -104,7 +105,6 @@ def procesar_lista_local() -> str:
         logger.exception("Error al procesar la lista")
         return f"#EXTM3U\n#EXTINF:-1,Error al procesar: {str(e)}\nhttp://localhost"
 
-
 @app.get("/playlist")
 @app.get("/playlist.m3u")
 async def playlist():
@@ -116,14 +116,13 @@ async def playlist():
             "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
             "Pragma": "no-cache",
             "Expires": "0",
+            "Connection": "keep-alive"
         },
     )
-
 
 @app.get("/health")
 async def health():
     return {"status": "ok", "archivo": ARCHIVO_M3U, "existe": os.path.exists(ARCHIVO_M3U)}
-
 
 if __name__ == "__main__":
     import uvicorn
