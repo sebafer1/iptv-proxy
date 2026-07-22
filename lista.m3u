@@ -1,349 +1,1007 @@
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="98. AMC HD",98. AMC HD
+#EXTM3U
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-continuous=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:stream-filter=xtream
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+#EXTVLCOPT:no-video-filter
+#EXTVLCOPT:no-audio-filter
+#EXTVLCOPT:tcp-nodelay=true
+#EXTVLCOPT:ipv4-timeout=3
+#EXTVLCOPT:prefetch-buffer=500
+#EXTVLCOPT:stream-buffer-size=4096
+#EXTVLCOPT:drop-late-frames=true
+#EXTVLCOPT:skip-frames=true
+#EXTVLCOPT:clock-synchro=0
+
+# === CANALES EN VIVO ===
+
+# --- NACIONALES (CHILE) ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="1. CHILEVISION HD",1. CHILEVISION HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/46
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/618
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="99. AXN HD",99. AXN HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="2. CANAL 13 HD",2. CANAL 13 HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/47
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/613
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="100. CINE FAMILIAR HD",100. CINE FAMILIAR HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="3. MEGA HD",3. MEGA HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/81
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/625
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="101. CINE HISPANO HD",101. CINE HISPANO HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="4. TVN HD",4. TVN HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/76
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/636
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="102. CINE PREMIUM HD",102. CINE PREMIUM HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="5. TV PLUS HD",5. TV PLUS HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/79
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/639
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="103. CINECANAL HD",103. CINECANAL HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="6. LA RED HD",6. LA RED HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/48
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/623
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="104. CINEMA DINAMITA HD",104. CINEMA DINAMITA HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="7. CANAL 13C HD",7. CANAL 13C HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/49
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/628
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="105. CINEMAX HD",105. CINEMAX HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="8. REC TV HD",8. REC TV HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/50
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/629
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="106. CLOVER CHANNEL HD",106. CLOVER CHANNEL HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="9. 24 HORAS HD",9. 24 HORAS HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/80
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/612
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="107. DE PELICULA HD",107. DE PELICULA HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="10. CNN CHILE HD",10. CNN CHILE HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/51
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/621
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="108. DE PELICULA PLUS HD",108. DE PELICULA PLUS HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="11. CANAL 9 BIOBIO TV HD",11. CANAL 9 BIOBIO TV HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/52
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/84134
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="109. DHE HD",109. DHE HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="12. VIA X HD",12. VIA X HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/53
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/624
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="110. EUROPA EUROPA HD",110. EUROPA EUROPA HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="13. UCV HD",13. UCV HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/54
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/635
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="111. STAR CHANNEL HD",111. STAR CHANNEL HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="14. TELETRAK TV HD",14. TELETRAK TV HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/55
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/630
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="112. FX HD",112. FX HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="15. 31 MINUTOS HD",15. 31 MINUTOS HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/56
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/68779
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="113. GOLDEN HD",113. GOLDEN HD
+# --- DEPORTES ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="16. TNT SPORTS PREMIUM HD",16. TNT SPORTS PREMIUM HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/57
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/631
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="114. GOLDEN EDGE HD",114. GOLDEN EDGE HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="17. TNT SPORTS 2 HD",17. TNT SPORTS 2 HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/58
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/633
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="115. GOLDEN PLUS HD",115. GOLDEN PLUS HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="18. TNT SPORTS 3 HD",18. TNT SPORTS 3 HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/59
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/634
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="116. GOLDEN PREMIER HD",116. GOLDEN PREMIER HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="19. PPV 1 HD",19. PPV 1 HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/61
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/927
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="117. GOLDEN PREMIER 2 HD",117. GOLDEN PREMIER 2 HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="20. PPV 2 TNT SPORTS HD",20. PPV 2 TNT SPORTS HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/60
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/801
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="118. HBO HD",118. HBO HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="21. CDO PREMIUM HD",21. CDO PREMIUM HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/617
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="22. CDO BASICO HD",22. CDO BASICO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288984.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="23. ESPN PREMIUM CHILE HD",23. ESPN PREMIUM CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288807.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="24. ESPN 1 CHILE HD",24. ESPN 1 CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288895.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="25. ESPN 2 CHILE HD",25. ESPN 2 CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288905.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="26. ESPN 3 CHILE HD",26. ESPN 3 CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288914.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="27. ESPN 4 CHILE HD",27. ESPN 4 CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288922.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="28. ESPN 5 CHILE HD",28. ESPN 5 CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288928.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="29. ESPN 6 CHILE HD",29. ESPN 6 CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288940.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="30. ESPN 7 CHILE HD",30. ESPN 7 CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288948.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="31. DSPORTS CHILE HD",31. DSPORTS CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/555168.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="32. DSPORTS 2 CHILE HD",32. DSPORTS 2 CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/555189.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="33. DSPORTS PLUS CHILE HD",33. DSPORTS PLUS CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/555198.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="34. FOX SPORTS 1 HD",34. FOX SPORTS 1 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288936.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="35. FOX SPORTS 2 HD",35. FOX SPORTS 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288944.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="36. FOX SPORTS 3 HD",36. FOX SPORTS 3 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288951.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="37. FOX SPORTS PREMIUM HD",37. FOX SPORTS PREMIUM HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288958.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="38. CLARO SPORTS 1 HD",38. CLARO SPORTS 1 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/588138.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="39. CLARO SPORTS 2 HD",39. CLARO SPORTS 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/555188.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="40. EUROSPORT 1 HD",40. EUROSPORT 1 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/702524.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="41. EUROSPORT 2 HD",41. EUROSPORT 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/702525.m3u8
+
+# --- INFANTIL ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="42. BABY TV HD",42. BABY TV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680422.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="43. BOOMERANG HD",43. BOOMERANG HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680423.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="44. CARTOON NETWORK HD",44. CARTOON NETWORK HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680424.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="45. DISNEY CHANNEL HD",45. DISNEY CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680425.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="46. DISCOVERY KIDS HD",46. DISCOVERY KIDS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680426.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="47. DISNEY JUNIOR HD",47. DISNEY JUNIOR HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680427.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="48. NICK HD",48. NICK HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680428.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="49. NICK JUNIOR HD",49. NICK JUNIOR HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680429.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="50. NICKELODEON HD",50. NICKELODEON HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/680430.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="51. TEEN NICK HD",51. TEEN NICK HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/700340.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="52. ETC TV HD",52. ETC TV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/622
+
+# --- CINE, SERIES Y PREMIUM ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="53. HBO HD",53. HBO HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/62
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="119. HBO 2 HD",119. HBO 2 HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="54. HBO 2 HD",54. HBO 2 HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/63
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="120. HBO FAMILY HD",120. HBO FAMILY HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="55. HBO FAMILY HD",55. HBO FAMILY HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/64
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="121. HBO MUNDI HD",121. HBO MUNDI HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="56. HBO MUNDI HD",56. HBO MUNDI HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/65
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="122. HBO POP HD",122. HBO POP HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="57. HBO POP HD",57. HBO POP HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/66
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="123. HBO SIGNATURE HD",123. HBO SIGNATURE HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="58. HBO SIGNATURE HD",58. HBO SIGNATURE HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/67
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="124. HBO XTREME HD",124. HBO XTREME HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="59. HBO XTREME HD",59. HBO XTREME HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/68
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="125. HBO PLUS HD",125. HBO PLUS HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="60. HBO PLUS HD",60. HBO PLUS HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/69
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="126. HORRORFY TV HD",126. HORRORFY TV HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/70
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="127. MORBIDO TV HD",127. MORBIDO TV HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/71
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="128. MULTIPREMIER HD",128. MULTIPREMIER HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/82
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="129. MY TIME NETWORK HD",129. MY TIME NETWORK HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/72
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="130. PANICO HD",130. PANICO HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/73
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="131. PARAMOUNT CHANNEL HD",131. PARAMOUNT CHANNEL HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/74
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="132. RUN:TIME HD",132. RUN:TIME HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/88
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="133. SONY CHANNEL HD",133. SONY CHANNEL HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/75
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="134. SONY MOVIES HD",134. SONY MOVIES HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/77
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="135. SPACE HD",135. SPACE HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/78
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="136. STUDIO UNIVERSAL HD",136. STUDIO UNIVERSAL HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/83
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="137. TNT HD",137. TNT HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/86
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="138. TNT NOVELAS HD",138. TNT NOVELAS HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/85
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="139. TNT SERIES HD",139. TNT SERIES HD
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/87
-
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="140. UNIVERSAL CHANNEL HD",140. UNIVERSAL CHANNEL HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="61. UNIVERSAL CHANNEL HD",61. UNIVERSAL CHANNEL HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/89
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="141. UNIVERSAL CINEMA HD",141. UNIVERSAL CINEMA HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="62. UNIVERSAL CINEMA HD",62. UNIVERSAL CINEMA HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/90
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="142. UNIVERSAL COMEDY HD",142. UNIVERSAL COMEDY HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="63. UNIVERSAL COMEDY HD",63. UNIVERSAL COMEDY HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/91
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="143. UNIVERSAL CRIME HD",143. UNIVERSAL CRIME HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="64. UNIVERSAL CRIME HD",64. UNIVERSAL CRIME HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/92
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="144. UNIVERSAL PREMIERE HD",144. UNIVERSAL PREMIERE HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="65. UNIVERSAL PREMIERE HD",65. UNIVERSAL PREMIERE HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/93
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="145. UNIVERSAL REALITY HD",145. UNIVERSAL REALITY HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="66. UNIVERSAL REALITY HD",66. UNIVERSAL REALITY HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/94
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="146. USA CHANNEL HD",146. USA CHANNEL HD
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="67. STAR CHANNEL HD",67. STAR CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/55
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="68. WARNER TV HD",68. WARNER TV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/95
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="69. SONY CHANNEL HD",69. SONY CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/75
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="70. SONY MOVIES HD",70. SONY MOVIES HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/77
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="71. TNT HD",71. TNT HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/86
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="72. TNT NOVELAS HD",72. TNT NOVELAS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/85
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="73. TNT SERIES HD",73. TNT SERIES HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/87
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="74. FX HD",74. FX HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/56
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="75. AXN HD",75. AXN HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/47
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="76. STUDIO UNIVERSAL HD",76. STUDIO UNIVERSAL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/83
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="77. CINEMAX HD",77. CINEMAX HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/50
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="78. CINECANAL HD",78. CINECANAL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/48
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="79. PARAMOUNT CHANNEL HD",79. PARAMOUNT CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/74
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="80. AMC HD",80. AMC HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/46
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="81. SPACE HD",81. SPACE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/78
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="82. EUROPA EUROPA HD",82. EUROPA EUROPA HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/54
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="83. GOLDEN HD",83. GOLDEN HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/57
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="84. GOLDEN EDGE HD",84. GOLDEN EDGE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/58
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="85. GOLDEN PLUS HD",85. GOLDEN PLUS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/59
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="86. GOLDEN PREMIER HD",86. GOLDEN PREMIER HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/61
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="87. GOLDEN PREMIER 2 HD",87. GOLDEN PREMIER 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/60
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="88. CINE FAMILIAR HD",88. CINE FAMILIAR HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/81
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="89. CINE HISPANO HD",89. CINE HISPANO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/76
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="90. CINE PREMIUM HD",90. CINE PREMIUM HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/79
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="91. CINEMA DINAMITA HD",91. CINEMA DINAMITA HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/49
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="92. CLOVER CHANNEL HD",92. CLOVER CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/80
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="93. DE PELICULA HD",93. DE PELICULA HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/51
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="94. DE PELICULA PLUS HD",94. DE PELICULA PLUS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/52
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="95. DHE HD",95. DHE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/53
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="96. HORRORFY TV HD",96. HORRORFY TV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/70
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="97. MORBIDO TV HD",97. MORBIDO TV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/71
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="98. MULTIPREMIER HD",98. MULTIPREMIER HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/82
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="99. MY TIME NETWORK HD",99. MY TIME NETWORK HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/72
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="100. PANICO HD",100. PANICO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/73
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="101. RUN:TIME HD",101. RUN:TIME HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/88
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="102. USA CHANNEL HD",102. USA CHANNEL HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/84
 
-#EXTINF:-1 group-title="Canales en Vivo" tvg-name="147. WARNER TV HD",147. WARNER TV HD
+# --- DOCUMENTALES Y CULTURA ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="103. ANIMAL PLANET HD",103. ANIMAL PLANET HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/95
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633371.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="104. DISCOVERY CHANNEL HD",104. DISCOVERY CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633375.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="105. DISCOVERY HOME & HEALTH HD",105. DISCOVERY HOME & HEALTH HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633379.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="106. DISCOVERY INVESTIGATION HD",106. DISCOVERY INVESTIGATION HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633381.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="107. DISCOVERY SCIENCE HD",107. DISCOVERY SCIENCE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633383.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="108. DISCOVERY THEATER HD",108. DISCOVERY THEATER HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633386.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="109. DISCOVERY TLC HD",109. DISCOVERY TLC HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633388.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="110. DISCOVERY TURBO HD",110. DISCOVERY TURBO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633390.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="111. DISCOVERY WORLD HD",111. DISCOVERY WORLD HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633392.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="112. HISTORY 2 HD",112. HISTORY 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633395.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="113. HISTORY HD",113. HISTORY HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633398.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="114. HGTV HD",114. HGTV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633400.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="115. NATIONAL GEOGRAPHIC HD",115. NATIONAL GEOGRAPHIC HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633402.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="116. NAT GEO WILD HD",116. NAT GEO WILD HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633404.m3u8
+
+# --- VARIADADES Y NOTICIAS INTERNACIONALES ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="117. GALAVISION MIAMI HD",117. GALAVISION MIAMI HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601951.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="118. GALAVISION SAN ANTONIO HD",118. GALAVISION SAN ANTONIO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601953.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="119. GALAVISION SAN FRANCISCO HD",119. GALAVISION SAN FRANCISCO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601954.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="120. TELEMUNDO SACRAMENTO HD",120. TELEMUNDO SACRAMENTO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601955.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="121. TELEMUNDO MIAMI HD",121. TELEMUNDO MIAMI HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601957.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="122. TELEMUNDO BOSTON HD",122. TELEMUNDO BOSTON HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601960.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="123. TELEMUNDO HD",123. TELEMUNDO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601961.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="124. TELEMUNDO DENVER HD",124. TELEMUNDO DENVER HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601962.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="125. TELEMUNDO HOUSTON HD",125. TELEMUNDO HOUSTON HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601963.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="126. TELEMUNDO INTERNACIONAL HD",126. TELEMUNDO INTERNACIONAL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601964.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="127. TELEMUNDO LOS ANGELES HD",127. TELEMUNDO LOS ANGELES HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601965.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="128. TELEMUNDO MEXICO HD",128. TELEMUNDO MEXICO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601966.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="129. TELEMUNDO NEW YORK HD",129. TELEMUNDO NEW YORK HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601967.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="130. TELEMUNDO ORLANDO HD",130. TELEMUNDO ORLANDO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601968.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="131. UNIMAS AUSTIN HD",131. UNIMAS AUSTIN HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601972.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="132. UNIMAS MIAMI HD",132. UNIMAS MIAMI HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601974.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="133. UNIVISION CHICAGO HD",133. UNIVISION CHICAGO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+https://script.lamtv.site/user01/secure_stream.php?user_id=tvq&token=dHZxfDE3MTY2MDMwMzg=&hash=09a231e010969dbfcded092a3997f4d228ebd8648794054597b6b1c010cfcaa1&url=aHR0cDovLzE5MC45Ny4xODMuMjY6ODAwMC9wbGF5L2EwbHIvaW5kZXgubTN1OA==
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="134. UNIVISION NEW YORK HD",134. UNIVISION NEW YORK HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601983.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="135. UNIVISION TLNOVELAS HD",135. UNIVISION TLNOVELAS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601986.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="136. UNIVERSO USA HD",136. UNIVERSO USA HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/601978.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="137. PASIONES HD",137. PASIONES HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/669122.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="138. MAS CHIC HD",138. MAS CHIC HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/674349.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="139. E ENTERTAINMENT HD",139. E ENTERTAINMENT HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/677965.m3u8
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="140. ZONA LATINA HD",140. ZONA LATINA HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/56873
