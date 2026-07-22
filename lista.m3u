@@ -18,690 +18,605 @@
 #EXTVLCOPT:skip-frames=true
 #EXTVLCOPT:clock-synchro=0
 
-# === CANALES DE TELEVISIÓN - OPTIMIZADO PARA CHILE ===
+# === CANALES EN VIVO ===
 
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• NICK JR (HD)",ZCL• NICK JR (HD)
+# --- NACIONALES ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="1. CHILEVISION HD",1. CHILEVISION HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54428
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/618
 
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• DISNEY JR (HD)",ZCL• DISNEY JR (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="2. CANAL 13 HD",2. CANAL 13 HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54423
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/613
 
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• DISCOVERY KIDS (HD)",ZCL• DISCOVERY KIDS (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="3. MEGA HD",3. MEGA HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54429
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/625
 
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• NICKELODEON (HD)",ZCL• NICKELODEON (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="4. TVN HD",4. TVN HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54420
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/637
 
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• CARTOON NETWORK (HD)",ZCL• CARTOON NETWORK (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54424
-
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• CARTOONITO (HD)",ZCL• CARTOONITO (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54426
-
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• DISNEY CHANNEL (HD)",ZCL• DISNEY CHANNEL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54422
-
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• DREAMWORKS (HD)",ZCL• DREAMWORKS (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54436
-
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• ETC TV (HD)",ZCL• ETC TV (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54434
-
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• BABY TV (HD)",ZCL• BABY TV (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54430
-
-#EXTINF:-1 group-title="Infantil" tvg-name="ZCL• TOONCAST (HD)",ZCL• TOONCAST (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54425
-
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• NTV (HD)",ZCL• NTV (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54433
-
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• TV+ (HD)",ZCL• TV+ (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="5. TV+ HD",5. TV+ HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/54367
 
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• LA RED (HD)",ZCL• LA RED (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="6. LA RED HD",6. LA RED HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/54364
 
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• TV CHILE (HD)",ZCL• TV CHILE (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="7. TV CHILE HD",7. TV CHILE HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/56872
 
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• TVN 3 (HD)",ZCL• TVN 3 (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="8. TVN 3 HD",8. TVN 3 HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/61269
 
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• TVN (HD)",ZCL• TVN (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54370
-
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• MEGA (HD)",ZCL• MEGA (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54373
-
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• CHV (HD)",ZCL• CHV (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54378
-
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• GANAR O SERVIR (HD)",ZCL• GANAR O SERVIR (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/72898
-
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• CANAL 13 (HD)",ZCL• CANAL 13 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54380
-
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• 13C (HD)",ZCL• 13C (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="9. 13C HD",9. 13C HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/54384
 
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• REC 13 (HD)",ZCL• REC 13 (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="10. REC 13 HD",10. REC 13 HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/54386
 
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• 24 HORAS (HD)",ZCL• 24 HORAS (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54371
-
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• CNN CHILE (HD)",ZCL• CNN CHILE (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54397
-
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• T13 (HD)",ZCL• T13 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54396
-
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• CNN ESPANOL (HD)",ZCL• CNN ESPANOL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54399
-
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• CNN INTERNACIONAL (HD)",ZCL• CNN INTERNACIONAL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54437
-
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• BCC WORLD NEW (HD)",ZCL• BCC WORLD NEW (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54438
-
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• FRANCE 24 (HD)",ZCL• FRANCE 24 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54439
-
-#EXTINF:-1 group-title="Entretenimiento" tvg-name="ZCL• ANTENA 3 (HD)",ZCL• ANTENA 3 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54525
-
-#EXTINF:-1 group-title="Entretenimiento" tvg-name="ZCL• A&E (HD)",ZCL• A&E (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54447
-
-#EXTINF:-1 group-title="Entretenimiento" tvg-name="ZCL• A3 SERIES (HD)",ZCL• A3 SERIES (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54478
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• WARNER (HD)",ZCL• WARNER (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54452
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• SONY (HD)",ZCL• SONY (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54451
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• STAR CHANNEL (HD)",ZCL• STAR CHANNEL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54441
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• TNT SERIES (HD)",ZCL• TNT SERIES (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54450
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• FX (HD)",ZCL• FX (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54444
-
-#EXTINF:-1 group-title="Entretenimiento" tvg-name="ZCL• COMEDY CENTRAL (HD)",ZCL• COMEDY CENTRAL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54440
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• UNIVERSAL TV (HD)",ZCL• UNIVERSAL TV (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54462
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• SYFY (HD)",ZCL• SYFY (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54446
-
-#EXTINF:-1 group-title="Entretenimiento" tvg-name="ZCL• TELEMUNDO INTERNACIONAL (HD)",ZCL• TELEMUNDO INTERNACIONAL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54523
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• AXN (HD)",ZCL• AXN (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54448
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• STUDIO UNIVERSAL (HD)",ZCL• STUDIO UNIVERSAL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54461
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• CINEMAX (HD)",ZCL• CINEMAX (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54366
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• CINECANAL (HD)",ZCL• CINECANAL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54468
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• TNT (HD)",ZCL• TNT (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54449
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• PARAMOUNT CHANNEL (HD)",ZCL• PARAMOUNT CHANNEL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54472
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• AMC (HD)",ZCL• AMC (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54469
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• SPACE (HD)",ZCL• SPACE (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54470
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• EUROPA EUROPA (HD)",ZCL• EUROPA EUROPA (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54432
-
-#EXTINF:-1 group-title="Series y Películas" tvg-name="ZCL• TCM (HD)",ZCL• TCM (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54476
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• HISTORY (HD)",ZCL• HISTORY (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54481
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• HISTORY 2 (HD)",ZCL• HISTORY 2 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54482
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• DISCOVERY CHANNEL (HD)",ZCL• DISCOVERY CHANNEL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54486
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• NATGEO (HD)",ZCL• NATGEO (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54483
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• DISCOVERY TURBO (HD)",ZCL• DISCOVERY TURBO (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54494
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• DISCOVERY ID (HD)",ZCL• DISCOVERY ID (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54492
-
-#EXTINF:-1 group-title="Estilo de Vida" tvg-name="ZCL• DISCOVERY TLC (HD)",ZCL• DISCOVERY TLC (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54491
-
-#EXTINF:-1 group-title="Entretenimiento" tvg-name="ZCL• FILM & ARTS (HD)",ZCL• FILM & ARTS (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54516
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• ANIMAL PLANET (HD)",ZCL• ANIMAL PLANET (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54485
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• DISCOVERY WORLD (HD)",ZCL• DISCOVERY WORLD (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54489
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• DISCOVERY SCIENCE (HD)",ZCL• DISCOVERY SCIENCE (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54493
-
-#EXTINF:-1 group-title="Documentales" tvg-name="ZCL• DISCOVERY THEATER (HD)",ZCL• DISCOVERY THEATER (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54490
-
-#EXTINF:-1 group-title="Entretenimiento" tvg-name="ZCL• E! ENTERNAINMENT (HD)",ZCL• E! ENTERNAINMENT (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54508
-
-#EXTINF:-1 group-title="Estilo de Vida" tvg-name="ZCL• DISCOVERY H&H (HD)",ZCL• DISCOVERY H&H (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54487
-
-#EXTINF:-1 group-title="Estilo de Vida" tvg-name="ZCL• MAS CHIC (HD)",ZCL• MAS CHIC (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54496
-
-#EXTINF:-1 group-title="Estilo de Vida" tvg-name="ZCL• EL GOURMET (HD)",ZCL• EL GOURMET (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54498
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• DIRECTV SPORTS (HD)",ZCL• DIRECTV SPORTS (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54409
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• ESPN (HD)",ZCL• ESPN (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54413
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• ESPN 2 (HD)",ZCL• ESPN 2 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54414
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• ESPN 3 (HD)",ZCL• ESPN 3 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54415
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• ESPN EXTRA (HD)",ZCL• ESPN EXTRA (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54417
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• ESPN 4 (HD)",ZCL• ESPN 4 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54416
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• FOX SPORTS 1 (HD)",ZCL• FOX SPORTS 1 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54410
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• FOX SPORTS 2 (HD)",ZCL• FOX SPORTS 2 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54411
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• FOX SPORTS 3 (HD)",ZCL• FOX SPORTS 3 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54412
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• CDO PREMIUM (HD)",ZCL• CDO PREMIUM (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54408
-
-#EXTINF:-1 group-title="Música" tvg-name="ZCL• HTV (HD)",ZCL• HTV (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54503
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• HBO (HD)",ZCL• HBO (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54453
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• HBO 2 (HD)",ZCL• HBO 2 (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54455
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• HBO FAMILY (HD)",ZCL• HBO FAMILY (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54458
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• HBO+ (HD)",ZCL• HBO+ (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54454
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• HBO SIGNATURE (HD)",ZCL• HBO SIGNATURE (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54457
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• HBO POP (HD)",ZCL• HBO POP (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54460
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• HBO XTREME (HD)",ZCL• HBO XTREME (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54459
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• UNIVERSAL PREMIERE (HD)",ZCL• UNIVERSAL PREMIERE (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54463
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• UNIVERSAL CINEMA (HD)",ZCL• UNIVERSAL CINEMA (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54464
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• UNIVERSAL COMEDY (HD)",ZCL• UNIVERSAL COMEDY (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54465
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• UNIVERSAL CRIME (HD)",ZCL• UNIVERSAL CRIME (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54466
-
-#EXTINF:-1 group-title="Premium" tvg-name="ZCL• UNIVERSAL REALITY (HD)",ZCL• UNIVERSAL REALITY (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54467
-
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• RT EN ESPANOL (HD)",ZCL• RT EN ESPANOL (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54400
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• TELETRAK (HD)",ZCL• TELETRAK (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54419
-
-#EXTINF:-1 group-title="Nacionales" tvg-name="ZCL• CAMARA DE DIPUTADOS (HD)",ZCL• CAMARA DE DIPUTADOS (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="11. CAMARA DE DIPUTADOS HD",11. CAMARA DE DIPUTADOS HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/54401
 
-#EXTINF:-1 group-title="Noticias" tvg-name="ZCL• BIO BIO TV (HD)",ZCL• BIO BIO TV (HD)
+# --- DEPORTES ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="12. TNT SPORTS PREMIUM HD 1",12. TNT SPORTS PREMIUM HD 1
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/631
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="13. TNT SPORTS PREMIUM HD 2",13. TNT SPORTS PREMIUM HD 2
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/632
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="14. TNT SPORTS 2 HD",14. TNT SPORTS 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/633
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="15. TNT SPORTS 3 HD",15. TNT SPORTS 3 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/634
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="16. DIRECTV SPORTS HD",16. DIRECTV SPORTS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54409
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="17. ESPN HD",17. ESPN HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54413
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="18. ESPN 2 HD",18. ESPN 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54414
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="19. ESPN 3 HD",19. ESPN 3 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54415
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="20. ESPN 4 HD",20. ESPN 4 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54416
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="21. ESPN EXTRA HD",21. ESPN EXTRA HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54417
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="22. FOX SPORTS 1 HD",22. FOX SPORTS 1 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54410
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="23. FOX SPORTS 2 HD",23. FOX SPORTS 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54411
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="24. FOX SPORTS 3 HD",24. FOX SPORTS 3 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54412
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="25. CDO PREMIUM HD",25. CDO PREMIUM HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54408
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="26. TELETRAK HD",26. TELETRAK HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54419
+
+# --- INFANTIL ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="27. NICK JR HD",27. NICK JR HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54428
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="28. DISNEY JR HD",28. DISNEY JR HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54423
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="29. DISCOVERY KIDS HD",29. DISCOVERY KIDS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54429
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="30. NICKELODEON HD",30. NICKELODEON HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54420
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="31. CARTOON NETWORK HD",31. CARTOON NETWORK HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54424
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="32. CARTOONITO HD",32. CARTOONITO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54426
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="33. DISNEY CHANNEL HD",33. DISNEY CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54422
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="34. DREAMWORKS HD",34. DREAMWORKS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54436
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="35. ETC TV HD",35. ETC TV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54434
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="36. BABY TV HD",36. BABY TV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54430
+
+# --- CINE, SERIES Y PREMIUM ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="37. HBO HD",37. HBO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54453
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="38. HBO 2 HD",38. HBO 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54455
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="39. HBO FAMILY HD",39. HBO FAMILY HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54458
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="40. HBO+ HD",40. HBO+ HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54454
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="41. HBO SIGNATURE HD",41. HBO SIGNATURE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54457
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="42. HBO POP HD",42. HBO POP HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54460
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="43. HBO XTREME HD",43. HBO XTREME HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54459
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="44. UNIVERSAL PREMIERE HD",44. UNIVERSAL PREMIERE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54463
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="45. UNIVERSAL CINEMA HD",45. UNIVERSAL CINEMA HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54464
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="46. UNIVERSAL COMEDY HD",46. UNIVERSAL COMEDY HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54465
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="47. UNIVERSAL CRIME HD",47. UNIVERSAL CRIME HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54466
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="48. UNIVERSAL REALITY HD",48. UNIVERSAL REALITY HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54467
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="49. STAR CHANNEL HD",49. STAR CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54441
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="50. WARNER HD",50. WARNER HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54452
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="51. SONY HD",51. SONY HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54451
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="52. TNT HD",52. TNT HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54449
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="53. TNT SERIES HD",53. TNT SERIES HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54450
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="54. FX HD",54. FX HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54444
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="55. UNIVERSAL TV HD",55. UNIVERSAL TV HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54462
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="56. SYFY HD",56. SYFY HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54446
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="57. AXN HD",57. AXN HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54448
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="58. STUDIO UNIVERSAL HD",58. STUDIO UNIVERSAL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54461
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="59. CINEMAX HD",59. CINEMAX HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54366
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="60. CINECANAL HD",60. CINECANAL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54468
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="61. PARAMOUNT CHANNEL HD",61. PARAMOUNT CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54472
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="62. AMC HD",62. AMC HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54469
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="63. SPACE HD",63. SPACE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54470
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="64. EUROPA EUROPA HD",64. EUROPA EUROPA HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54432
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="65. TCM HD",65. TCM HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54476
+
+# --- DOCUMENTALES Y CULTURA ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="66. HISTORY HD",66. HISTORY HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54481
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="67. HISTORY 2 HD",67. HISTORY 2 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54482
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="68. DISCOVERY CHANNEL HD",68. DISCOVERY CHANNEL HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54486
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="69. NATGEO HD",69. NATGEO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54483
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="70. DISCOVERY TURBO HD",70. DISCOVERY TURBO HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54494
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="71. DISCOVERY ID HD",71. DISCOVERY ID HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54492
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="72. DISCOVERY TLC HD",72. DISCOVERY TLC HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54491
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="73. ANIMAL PLANET HD",73. ANIMAL PLANET HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54485
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="74. DISCOVERY WORLD HD",74. DISCOVERY WORLD HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54489
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="75. DISCOVERY SCIENCE HD",75. DISCOVERY SCIENCE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54493
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="76. DISCOVERY THEATER HD",76. DISCOVERY THEATER HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54490
+
+# --- NOTICIAS Y ENTRETENIMIENTO ---
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="77. 24 HORAS HD",77. 24 HORAS HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54371
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="78. CNN CHILE HD",78. CNN CHILE HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54397
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="79. T13 HD",79. T13 HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54396
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="80. BIO BIO TV HD",80. BIO BIO TV HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/54398
 
-#EXTINF:-1 group-title="Música" tvg-name="ZCL• CAROLINA TV (HD)",ZCL• CAROLINA TV (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="81. COMEDY CENTRAL HD",81. COMEDY CENTRAL HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/54504
+http://myultratv.com:8080/972807000tv/8652ef/54440
 
-#EXTINF:-1 group-title="Entretenimiento" tvg-name="ZCL• ZONA LATINA (HD)",ZCL• ZONA LATINA (HD)
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="82. A&E HD",82. A&E HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54447
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="83. DISCOVERY H&H HD",83. DISCOVERY H&H HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54487
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="84. EL GOURMET HD",84. EL GOURMET HD
+#EXTVLCOPT:network-caching=300
+#EXTVLCOPT:live-caching=300
+#EXTVLCOPT:sub-track=-1
+#EXTVLCOPT:no-spu
+http://myultratv.com:8080/972807000tv/8652ef/54498
+
+#EXTINF:-1 group-title="Canales en Vivo" tvg-name="85. ZONA LATINA HD",85. ZONA LATINA HD
 #EXTVLCOPT:network-caching=300
 #EXTVLCOPT:live-caching=300
 #EXTVLCOPT:sub-track=-1
 #EXTVLCOPT:no-spu
 http://myultratv.com:8080/972807000tv/8652ef/56873
-
-#EXTINF:-1 group-title="Deportes" tvg-name="ZCL• TIGO SPORTS (HD)",ZCL• TIGO SPORTS (HD)
-#EXTVLCOPT:network-caching=300
-#EXTVLCOPT:live-caching=300
-#EXTVLCOPT:sub-track=-1
-#EXTVLCOPT:no-spu
-http://myultratv.com:8080/972807000tv/8652ef/253657
