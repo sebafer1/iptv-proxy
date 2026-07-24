@@ -14,7 +14,7 @@ app = FastAPI(title="IPTV Proxy Ultra Speed")
 
 app.add_middleware(GZipMiddleware, minimum_size=256)
 
-# CORS configurable por entorno (por defecto abierto)
+# CORS
 CORS_ORIGINS = os.environ.get("CORS_ORIGINS", "*")
 origenes = ["*"] if CORS_ORIGINS.strip() == "*" else [o.strip() for o in CORS_ORIGINS.split(",")]
 app.add_middleware(
@@ -27,13 +27,6 @@ app.add_middleware(
 
 
 def obtener_ruta_m3u() -> str:
-    """
-    Determina la ruta del archivo M3U buscando en orden de prioridad:
-    1. Variable de entorno M3U_PATH
-    2. Carpeta 'lista M3U/lista.m3u'
-    3. Carpeta 'lista_m3u/lista.m3u'
-    4. Archivo 'lista.m3u' en la raíz
-    """
     env_path = os.environ.get("M3U_PATH")
     if env_path:
         return env_path
@@ -53,13 +46,11 @@ def obtener_ruta_m3u() -> str:
             logger.info("Archivo M3U localizado en: %s", ruta)
             return ruta
 
-    # Si no se encuentra ninguno, retornar la ruta por defecto para loguear la advertencia
     return posibles_rutas[0]
 
 
 ARCHIVO_M3U = obtener_ruta_m3u()
 
-# Directivas Anti-Buffer y de Cambio Rápido de Canal (Low-Latency)
 OPCIONES_TURBO = [
     "#EXTVLCOPT:network-caching=2000",
     "#EXTVLCOPT:live-caching=2000",
@@ -75,13 +66,11 @@ OPCIONES_TURBO = [
     "#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20",
 ]
 
-# Caché en memoria + lock para evitar condiciones de carrera
 _cache = {"mtime": None, "contenido": None, "canales": 0}
 _cache_lock = asyncio.Lock()
 
 
 def _procesar_lista_sync(ruta_archivo: str) -> tuple[str, int]:
-    """Lee y reescribe el M3U. Corre en threadpool para no bloquear el event loop."""
     if not os.path.exists(ruta_archivo):
         logger.warning("No se encontró el archivo M3U en la ruta: %s", ruta_archivo)
         return f"#EXTM3U\n#EXTINF:-1,Archivo no encontrado en {os.path.basename(ruta_archivo)}\nhttp://localhost", 0
@@ -99,7 +88,7 @@ def _procesar_lista_sync(ruta_archivo: str) -> tuple[str, int]:
 
         if linea.startswith("#EXTINF"):
             bloque_canal = [linea]
-            extras = []  # líneas tipo #EXTGRP, #KODIPROP, etc.
+            extras = []
             j = i + 1
             enlace_encontrado = False
 
@@ -133,7 +122,6 @@ def _procesar_lista_sync(ruta_archivo: str) -> tuple[str, int]:
 async def obtener_playlist():
     global ARCHIVO_M3U
     
-    # Re-evaluar por si el archivo fue subido/movido posteriormente
     if not os.path.exists(ARCHIVO_M3U):
         ARCHIVO_M3U = obtener_ruta_m3u()
 
@@ -147,7 +135,6 @@ async def obtener_playlist():
                     headers={"X-Cache": "HIT"}
                 )
 
-        # Si cambió el archivo o no está en caché, procesar en hilo separado
         contenido, num_canales = await asyncio.to_thread(_procesar_lista_sync, ARCHIVO_M3U)
         
         if os.path.exists(ARCHIVO_M3U):
