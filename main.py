@@ -25,7 +25,39 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-ARCHIVO_M3U = os.environ.get("M3U_PATH", os.path.join(os.path.dirname(__file__), "lista.m3u"))
+
+def obtener_ruta_m3u() -> str:
+    """
+    Determina la ruta del archivo M3U buscando en orden de prioridad:
+    1. Variable de entorno M3U_PATH
+    2. Carpeta 'lista M3U/lista.m3u'
+    3. Carpeta 'lista_m3u/lista.m3u'
+    4. Archivo 'lista.m3u' en la raíz
+    """
+    env_path = os.environ.get("M3U_PATH")
+    if env_path:
+        return env_path
+
+    base_dir = os.path.dirname(__file__)
+    
+    posibles_rutas = [
+        os.path.join(base_dir, "lista M3U", "lista.m3u"),
+        os.path.join(base_dir, "lista M3U", "LISTA.M3U"),
+        os.path.join(base_dir, "lista_m3u", "lista.m3u"),
+        os.path.join(base_dir, "lista.m3u"),
+        os.path.join(base_dir, "LISTA.M3U"),
+    ]
+
+    for ruta in posibles_rutas:
+        if os.path.exists(ruta):
+            logger.info("Archivo M3U localizado en: %s", ruta)
+            return ruta
+
+    # Si no se encuentra ninguno, retornar la ruta por defecto para loguear la advertencia
+    return posibles_rutas[0]
+
+
+ARCHIVO_M3U = obtener_ruta_m3u()
 
 # Directivas Anti-Buffer y de Cambio Rápido de Canal (Low-Latency)
 OPCIONES_TURBO = [
@@ -43,18 +75,18 @@ OPCIONES_TURBO = [
     "#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20",
 ]
 
-# Caché en memoria + lock para evitar condiciones de carrera en refrescos concurrentes
+# Caché en memoria + lock para evitar condiciones de carrera
 _cache = {"mtime": None, "contenido": None, "canales": 0}
 _cache_lock = asyncio.Lock()
 
 
-def _procesar_lista_sync() -> tuple[str, int]:
+def _procesar_lista_sync(ruta_archivo: str) -> tuple[str, int]:
     """Lee y reescribe el M3U. Corre en threadpool para no bloquear el event loop."""
-    if not os.path.exists(ARCHIVO_M3U):
-        logger.warning("No se encontró %s", ARCHIVO_M3U)
-        return "#EXTM3U\n#EXTINF:-1,Archivo lista.m3u no encontrado\nhttp://localhost", 0
+    if not os.path.exists(ruta_archivo):
+        logger.warning("No se encontró el archivo M3U en la ruta: %s", ruta_archivo)
+        return f"#EXTM3U\n#EXTINF:-1,Archivo no encontrado en {os.path.basename(ruta_archivo)}\nhttp://localhost", 0
 
-    with open(ARCHIVO_M3U, "r", encoding="utf-8", errors="ignore") as f:
+    with open(ruta_archivo, "r", encoding="utf-8", errors="ignore") as f:
         contenido = f.read()
 
     lineas = contenido.splitlines()
@@ -76,7 +108,6 @@ def _procesar_lista_sync() -> tuple[str, int]:
                 if sig_linea.startswith("#EXTINF"):
                     break
                 elif sig_linea.startswith("http://") or sig_linea.startswith("https://"):
-                    # Agregar las opciones turbo antes del enlace
                     bloque_canal.extend(OPCIONES_TURBO)
                     bloque_canal.extend(extras)
                     bloque_canal.append(sig_linea)
@@ -100,6 +131,12 @@ def _procesar_lista_sync() -> tuple[str, int]:
 @app.get("/playlist.m3u")
 @app.get("/lista.m3u")
 async def obtener_playlist():
+    global ARCHIVO_M3U
+    
+    # Re-evaluar por si el archivo fue subido/movido posteriormente
+    if not os.path.exists(ARCHIVO_M3U):
+        ARCHIVO_M3U = obtener_ruta_m3u()
+
     async with _cache_lock:
         if os.path.exists(ARCHIVO_M3U):
             mtime_actual = os.path.getmtime(ARCHIVO_M3U)
@@ -111,7 +148,7 @@ async def obtener_playlist():
                 )
 
         # Si cambió el archivo o no está en caché, procesar en hilo separado
-        contenido, num_canales = await asyncio.to_thread(_procesar_lista_sync)
+        contenido, num_canales = await asyncio.to_thread(_procesar_lista_sync, ARCHIVO_M3U)
         
         if os.path.exists(ARCHIVO_M3U):
             _cache["mtime"] = os.path.getmtime(ARCHIVO_M3U)
@@ -127,11 +164,13 @@ async def obtener_playlist():
 
 @app.get("/health")
 async def health_check():
+    existe = os.path.exists(ARCHIVO_M3U)
     return JSONResponse(
         status_code=200,
         content={
             "status": "ok",
             "canales_cargados": _cache["canales"],
-            "archivo_m3u": os.path.basename(ARCHIVO_M3U)
+            "ruta_m3u": ARCHIVO_M3U,
+            "archivo_existe": existe
         }
     )
