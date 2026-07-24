@@ -39,7 +39,7 @@ http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/289724
 #EXTINF:-1 tvg-id="" tvg-name="12. TNT SPORTS PREMIUM FHD" group-title="CANALES EN VIVO",12. TNT SPORTS PREMIUM FHD
 http://servertoday.ddns.net:2082/Joseluisrodri/qgupBy9WtUev/81707
 
-#EXTINF:-1 tvg-id="" tvg-name="13. EAPN PREMIUM CHILE" group-title="CANALES EN VIVO",13. EAPN PREMIUM CHILE
+#EXTINF:-1 tvg-id="" tvg-name="13. ESPN PREMIUM CHILE" group-title="CANALES EN VIVO",13. EAPN PREMIUM CHILE
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288807.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="14. ESPN 1 CHILE HD" group-title="CANALES EN VIVO",14. ESPN 1 CHILE HD
@@ -63,10 +63,10 @@ http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288940.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="20. ESPN 7 CHILE HD" group-title="CANALES EN VIVO",20. ESPN 7 CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288948.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="21. D$PORTS CHILE HD" group-title="CANALES EN VIVO",21. D$PORTS CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="21. DPORTS CHILE HD" group-title="CANALES EN VIVO",21. D$PORTS CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/555168.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="22. D$PORTS+ CHILE HD" group-title="CANALES EN VIVO",22. D$PORTS+ CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="22. DPORTS+ CHILE HD" group-title="CANALES EN VIVO",22. D$PORTS+ CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/555198.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="23. CDO PREMIUM" group-title="CANALES EN VIVO",23. CDO PREMIUM
@@ -225,8 +225,8 @@ http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/4063
 #EXTINF:-1 tvg-id="" tvg-name="74. DISNEY JR FHD" group-title="CANALES EN VIVO",74. DISNEY JR FHD
 http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/4111
 
-#EXTINF:-1 tvg-id="" tvg-name="75. MX DISNEY CHANNEL" group-title="CANALES EN VIVO",75. MX DISNEY CHANNEL
+#EXTINF:-1 tvg-id="" tvg-name="75.  DISNEY CHANNEL" group-title="CANALES EN VIVO",75. MX DISNEY CHANNEL
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/680434
 
-#EXTINF:-1 tvg-id="" tvg-name="76. MX NICK" group-title="CANALES EN VIVO",76. MX NICK
+#EXTINF:-1 tvg-id="" tvg-name="76.  NICK" group-title="CANALES EN VIVO",76. MX NICK
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/680439
