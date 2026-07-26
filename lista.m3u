@@ -3,19 +3,19 @@
 #EXTVLCOPT:live-caching=500
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 
-#EXTINF:-1 tvg-id="" tvg-name="1. CANAL 13 HD" group-title="CANALES EN VIVO",1. CANAL 13 HD
+#EXTINF:-1 tvg-id="" tvg-name="1. CANAL 13 FHD" group-title="CANALES EN VIVO",1. CANAL 13 HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288530
 
 #EXTINF:-1 tvg-id="" tvg-name="2. CHILEVISION FHD" group-title="CANALES EN VIVO",2. CHILEVISION FHD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288540
 
-#EXTINF:-1 tvg-id="" tvg-name="3. MEGA HD" group-title="CANALES EN VIVO",3. MEGA HD
+#EXTINF:-1 tvg-id="" tvg-name="3. MEGA FHD" group-title="CANALES EN VIVO",3. MEGA HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288545
 
 #EXTINF:-1 tvg-id="" tvg-name="4. TVN FHD" group-title="CANALES EN VIVO",4. TVN FHD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288547
 
-#EXTINF:-1 tvg-id="" tvg-name="5. TVN 3" group-title="CANALES EN VIVO",5. TVN 3
+#EXTINF:-1 tvg-id="" tvg-name="5. TVN 3 HD" group-title="CANALES EN VIVO",5. TVN 3
 http://xdgo.live:8080/live/SebastianCelis/p4ZzGpPBcp/140789.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="6. TV+ HD" group-title="CANALES EN VIVO",6. TV+ HD
@@ -27,194 +27,194 @@ http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/51823
 #EXTINF:-1 tvg-id="" tvg-name="8. NTV HD" group-title="CANALES EN VIVO",8. NTV HD
 http://xdgo.live:8080/live/SebastianCelis/p4ZzGpPBcp/64214.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="9. ZONA LATINA" group-title="CANALES EN VIVO",9. ZONA LATINA
+#EXTINF:-1 tvg-id="" tvg-name="9. ZONA LATINA HD" group-title="CANALES EN VIVO",9. ZONA LATINA
 http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/1141627
 
 #EXTINF:-1 tvg-id="" tvg-name="10. 24 HORAS" group-title="CANALES EN VIVO",10. 24 HORAS
 http://xdgo.live:8080/live/YuYoiptv/ln9uf6DPZL/27509.ts
 
 
-#EXTINF:-1 tvg-id="" tvg-name="11. SPORTING CLUB" group-title="CANALES EN VIVO",11. SPORTING CLUB
+#EXTINF:-1 tvg-id="" tvg-name="11. SPORTING CLUB HD" group-title="CANALES EN VIVO",11. SPORTING CLUB
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/289724
 
 #EXTINF:-1 tvg-id="" tvg-name="12. TNT SPORTS PREMIUM FHD" group-title="CANALES EN VIVO",12. TNT SPORTS PREMIUM FHD
 http://xdgo.live:8080/live/SebastianCelis/p4ZzGpPBcp/62972.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="13. ESPN PREMIUM CHILE" group-title="CANALES EN VIVO",13. EAPN PREMIUM CHILE
+#EXTINF:-1 tvg-id="" tvg-name="13. ESPN PREMIUM FHD" group-title="CANALES EN VIVO",13. EAPN PREMIUM CHILE
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288807.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="14. ESPN 1 CHILE HD" group-title="CANALES EN VIVO",14. ESPN 1 CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="14. ESPN 1 HD" group-title="CANALES EN VIVO",14. ESPN 1 CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288895.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="15. ESPN 2 CHILE HD" group-title="CANALES EN VIVO",15. ESPN 2 CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="15. ESPN 2 HD" group-title="CANALES EN VIVO",15. ESPN 2 CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288905.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="16. ESPN 3 CHILE HD" group-title="CANALES EN VIVO",16. ESPN 3 CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="16. ESPN 3 HD" group-title="CANALES EN VIVO",16. ESPN 3 CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288914.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="17. ESPN 4 CHILE HD" group-title="CANALES EN VIVO",17. ESPN 4 CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="17. ESPN 4 HD" group-title="CANALES EN VIVO",17. ESPN 4 CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288922.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="18. ESPN 5 LAT SD" group-title="CANALES EN VIVO",18. ESPN 5 LAT SD
+#EXTINF:-1 tvg-id="" tvg-name="18. ESPN 5 FHD" group-title="CANALES EN VIVO",18. ESPN 5 LAT SD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288939.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="19. ESPN 6 CHILE HD" group-title="CANALES EN VIVO",19. ESPN 6 CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="19. ESPN 6 FHD" group-title="CANALES EN VIVO",19. ESPN 6 CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288940.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="20. ESPN 7 CHILE HD" group-title="CANALES EN VIVO",20. ESPN 7 CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="20. ESPN 7 HD" group-title="CANALES EN VIVO",20. ESPN 7 CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/288948.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="21. DPORTS CHILE HD" group-title="CANALES EN VIVO",21. D$PORTS CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="21. DPORTS HD" group-title="CANALES EN VIVO",21. D$PORTS CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/555168.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="22. DPORTS+ CHILE HD" group-title="CANALES EN VIVO",22. D$PORTS+ CHILE HD
+#EXTINF:-1 tvg-id="" tvg-name="22. DPORTS+ HD" group-title="CANALES EN VIVO",22. D$PORTS+ CHILE HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/555198.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="23. CDO PREMIUM" group-title="CANALES EN VIVO",23. CDO PREMIUM
+#EXTINF:-1 tvg-id="" tvg-name="23. CDO PREMIUM HD" group-title="CANALES EN VIVO",23. CDO PREMIUM
 http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/1155837
 
-#EXTINF:-1 tvg-id="" tvg-name="24. A&E HD" group-title="CANALES EN VIVO",24. A&E HD
+#EXTINF:-1 tvg-id="" tvg-name="24. A&E FHD" group-title="CANALES EN VIVO",24. A&E HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577838
 
-#EXTINF:-1 tvg-id="" tvg-name="25. A3SERIES" group-title="CANALES EN VIVO",25. A3SERIES
+#EXTINF:-1 tvg-id="" tvg-name="25. A3SERIES FHD" group-title="CANALES EN VIVO",25. A3SERIES
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577840
 
-#EXTINF:-1 tvg-id="" tvg-name="26. AMC HD" group-title="CANALES EN VIVO",26. AMC HD
+#EXTINF:-1 tvg-id="" tvg-name="26. AMC FHD" group-title="CANALES EN VIVO",26. AMC HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577842
 
-#EXTINF:-1 tvg-id="" tvg-name="27. AXN HD" group-title="CANALES EN VIVO",27. AXN HD
+#EXTINF:-1 tvg-id="" tvg-name="27. AXN FHD" group-title="CANALES EN VIVO",27. AXN HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577844
 
 #EXTINF:-1 tvg-id="" tvg-name="28. CINECANAL FHD" group-title="CANALES EN VIVO",28. CINECANAL FHD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577850
 
-#EXTINF:-1 tvg-id="" tvg-name="29. COMEDY CENTRAL" group-title="CANALES EN VIVO",29. COMEDY CENTRAL
+#EXTINF:-1 tvg-id="" tvg-name="29. COMEDY CENTRAL FHD" group-title="CANALES EN VIVO",29. COMEDY CENTRAL
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577854
 
-#EXTINF:-1 tvg-id="" tvg-name="30. DHE HD" group-title="CANALES EN VIVO",30. DHE HD
+#EXTINF:-1 tvg-id="" tvg-name="30. DHE FHD" group-title="CANALES EN VIVO",30. DHE HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577858
 
-#EXTINF:-1 tvg-id="" tvg-name="31. CINE FAMILIAR MX" group-title="CANALES EN VIVO",31. CINE FAMILIAR MX
+#EXTINF:-1 tvg-id="" tvg-name="31. CINE FAMILIAR HD" group-title="CANALES EN VIVO",31. CINE FAMILIAR MX
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577860
 
-#EXTINF:-1 tvg-id="" tvg-name="32. FX HD" group-title="CANALES EN VIVO",32. FX HD
+#EXTINF:-1 tvg-id="" tvg-name="32. FX FHD" group-title="CANALES EN VIVO",32. FX HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577861
 
-#EXTINF:-1 tvg-id="" tvg-name="33. GOLDEN HD" group-title="CANALES EN VIVO",33. GOLDEN HD
+#EXTINF:-1 tvg-id="" tvg-name="33. GOLDEN FHD" group-title="CANALES EN VIVO",33. GOLDEN HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577864
 
-#EXTINF:-1 tvg-id="" tvg-name="34. GOLDEN PLUS HD" group-title="CANALES EN VIVO",34. GOLDEN PLUS HD ( CAMBIAR X PREMIER 2
+#EXTINF:-1 tvg-id="" tvg-name="34. GOLDEN PREMIER2 FFHD" group-title="CANALES EN VIVO",34. GOLDEN PLUS HD ( CAMBIAR X PREMIER 2
 http://181.78.49.81:8500/play/a019/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="35. GOLDEN PREMIER HD" group-title="CANALES EN VIVO",35. GOLDEN PREMIER HD
+#EXTINF:-1 tvg-id="" tvg-name="35. GOLDEN PREMIER FHD" group-title="CANALES EN VIVO",35. GOLDEN PREMIER HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577866
 
-#EXTINF:-1 tvg-id="" tvg-name="36. HBO 2 HD" group-title="CANALES EN VIVO",36. HBO 2 HD
-http://181.78.197.59:8000/play/a07e/index.m3u8?hls
+#EXTINF:-1 tvg-id="" tvg-name="36. HBO 2 FHD" group-title="CANALES EN VIVO",36. HBO 2 HD
+http://181.78.197.59:8000/play/a07e/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="37. HBO FAMILY HD" group-title="CANALES EN VIVO",37. HBO FAMILY HD
+#EXTINF:-1 tvg-id="" tvg-name="37. HBO FAMILY FHD" group-title="CANALES EN VIVO",37. HBO FAMILY HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577869
 
-#EXTINF:-1 tvg-id="" tvg-name="38. HBO PLUS HD" group-title="CANALES EN VIVO",38. HBO PLUS HD
+#EXTINF:-1 tvg-id="" tvg-name="38. HBO+ FHD" group-title="CANALES EN VIVO",38. HBO PLUS HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577873
 
-#EXTINF:-1 tvg-id="" tvg-name="39. HBO POP HD" group-title="CANALES EN VIVO",39. HBO POP HD
+#EXTINF:-1 tvg-id="" tvg-name="39. HBO POP FHD" group-title="CANALES EN VIVO",39. HBO POP HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577876
 
-#EXTINF:-1 tvg-id="" tvg-name="40. HBO XTREME HD" group-title="CANALES EN VIVO",40. HBO XTREME HD
+#EXTINF:-1 tvg-id="" tvg-name="40. HBO XTREME FHD" group-title="CANALES EN VIVO",40. HBO XTREME HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577880
 
-#EXTINF:-1 tvg-id="" tvg-name="41. HBO HD" group-title="CANALES EN VIVO",41. HBO HD
+#EXTINF:-1 tvg-id="" tvg-name="41. HBO FHD" group-title="CANALES EN VIVO",41. HBO HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577882
 
-#EXTINF:-1 tvg-id="" tvg-name="42. KANAL D DRAMA" group-title="CANALES EN VIVO",42. KANAL D DRAMA
+#EXTINF:-1 tvg-id="" tvg-name="42. KANAL D DRAMA FHD" group-title="CANALES EN VIVO",42. KANAL D DRAMA
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577884
 
-#EXTINF:-1 tvg-id="" tvg-name="43. CINE PREMIUM" group-title="CANALES EN VIVO",43. CINE PREMIUM
-http://181.78.197.59:8000/play/a084/index.m3u8?hls
+#EXTINF:-1 tvg-id="" tvg-name="43. CINE PREMIUM FHD" group-title="CANALES EN VIVO",43. CINE PREMIUM
+http://181.78.197.59:8000/play/a084/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="44. SONY CHANNEL HD" group-title="CANALES EN VIVO",44. SONY CHANNEL HD
+#EXTINF:-1 tvg-id="" tvg-name="44. SONY CHANNEL FHD" group-title="CANALES EN VIVO",44. SONY CHANNEL HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577891
 
-#EXTINF:-1 tvg-id="" tvg-name="45. SONY MOVIES HD" group-title="CANALES EN VIVO",45. SONY MOVIES HD
+#EXTINF:-1 tvg-id="" tvg-name="45. SONY MOVIES FHD" group-title="CANALES EN VIVO",45. SONY MOVIES HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577893
 
-#EXTINF:-1 tvg-id="" tvg-name="46. SPACE HD" group-title="CANALES EN VIVO",46. SPACE HD
+#EXTINF:-1 tvg-id="" tvg-name="46. SPACE FHD" group-title="CANALES EN VIVO",46. SPACE HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577895
 
-#EXTINF:-1 tvg-id="" tvg-name="47. STAR CHANNEL" group-title="CANALES EN VIVO",47. STAR CHANNEL
+#EXTINF:-1 tvg-id="" tvg-name="47. STAR CHANNEL FHD" group-title="CANALES EN VIVO",47. STAR CHANNEL
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577897
 
-#EXTINF:-1 tvg-id="" tvg-name="48. STUDIO UNIVERSAL HD" group-title="CANALES EN VIVO",48. STUDIO UNIVERSAL HD
+#EXTINF:-1 tvg-id="" tvg-name="48. STUDIO UNIVERSAL FHD" group-title="CANALES EN VIVO",48. STUDIO UNIVERSAL HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577909
 
-#EXTINF:-1 tvg-id="" tvg-name="49. TNT HD" group-title="CANALES EN VIVO",49. TNT HD
+#EXTINF:-1 tvg-id="" tvg-name="49. TNT FHD" group-title="CANALES EN VIVO",49. TNT HD
 http://45.5.118.188:8000/play/a04k/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="50. TNT NOVELAS HD" group-title="CANALES EN VIVO",50. TNT NOVELAS HD
+#EXTINF:-1 tvg-id="" tvg-name="50. TNT NOVELAS FHD" group-title="CANALES EN VIVO",50. TNT NOVELAS HD
 http://190.93.229.30:8000/play/a0bm/index.m3u8?hls
 
-#EXTINF:-1 tvg-id="" tvg-name="51. TNT SERIES HD" group-title="CANALES EN VIVO",51. TNT SERIES HD
+#EXTINF:-1 tvg-id="" tvg-name="51. TNT SERIES FHD" group-title="CANALES EN VIVO",51. TNT SERIES HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577921
 
-#EXTINF:-1 tvg-id="" tvg-name="52. UNIVERSAL CINEMA HD" group-title="CANALES EN VIVO",52. UNIVERSAL CINEMA HD
+#EXTINF:-1 tvg-id="" tvg-name="52. UNIVERSAL CINEMA FHD" group-title="CANALES EN VIVO",52. UNIVERSAL CINEMA HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577922
 
-#EXTINF:-1 tvg-id="" tvg-name="53. UNIVERSAL COMEDY HD" group-title="CANALES EN VIVO",53. UNIVERSAL COMEDY HD
+#EXTINF:-1 tvg-id="" tvg-name="53. UNIVERSAL COMEDY FHD" group-title="CANALES EN VIVO",53. UNIVERSAL COMEDY HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577923
 
-#EXTINF:-1 tvg-id="" tvg-name="54. UNIVERSAL HD" group-title="CANALES EN VIVO",54. UNIVERSAL HD
+#EXTINF:-1 tvg-id="" tvg-name="54. UNIVERSAL FHD" group-title="CANALES EN VIVO",54. UNIVERSAL HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577926
 
-#EXTINF:-1 tvg-id="" tvg-name="55. UNIVERSAL PREMIUM HD" group-title="CANALES EN VIVO",55. UNIVERSAL PREMIUM HD
+#EXTINF:-1 tvg-id="" tvg-name="55. UNIVERSAL PREMIUM FHD" group-title="CANALES EN VIVO",55. UNIVERSAL PREMIUM HD
 http://45.228.233.60:8000/play/a03q/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="56. UNIVERSAL REALITY HD" group-title="CANALES EN VIVO",56. UNIVERSAL REALITY HD
+#EXTINF:-1 tvg-id="" tvg-name="56. UNIVERSAL REALITY FHD" group-title="CANALES EN VIVO",56. UNIVERSAL REALITY HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577929
 
-#EXTINF:-1 tvg-id="" tvg-name="57. WARNER HD" group-title="CANALES EN VIVO",57. WARNER HD
-http://45.5.118.188:8000/play/a04f/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="57. WARNER FHD" group-title="CANALES EN VIVO",57. WARNER HD
+http://45.5.118.188:8000/play/a04f/index.m3u8.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="58. ANIMAL PLANET HD" group-title="CANALES EN VIVO",58. ANIMAL PLANET HD
-http://181.78.197.59:8000/play/a06u/index.m3u8?hls
+#EXTINF:-1 tvg-id="" tvg-name="58. ANIMAL PLANET RHD" group-title="CANALES EN VIVO",58. ANIMAL PLANET HD
+http://181.78.197.59:8000/play/a06u/index.m3u8.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="59. DIACOVERY CHANNEL FHD" group-title="CANALES EN VIVO",59. DIACOVERY CHANNEL FHD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633375.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="60. DISCOVERY HOME & HEALTH HD" group-title="CANALES EN VIVO",60. DISCOVERY HOME & HEALTH HD
+#EXTINF:-1 tvg-id="" tvg-name="60. DISCOVERY HOME & HEALTH FHD" group-title="CANALES EN VIVO",60. DISCOVERY HOME & HEALTH HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633379.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="61. DISCOVERY INVESTIGATION HD" group-title="CANALES EN VIVO",61. DISCOVERY INVESTIGATION HD
+#EXTINF:-1 tvg-id="" tvg-name="61. DISCOVERY INVESTIGATION FHD" group-title="CANALES EN VIVO",61. DISCOVERY INVESTIGATION HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633381.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="62. DISCOVERY THEATER FHD" group-title="CANALES EN VIVO",62. DISCOVERY THEATER FHD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633386.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="63. DISCOVERY TLC" group-title="CANALES EN VIVO",63. DISCOVERY TLC
+#EXTINF:-1 tvg-id="" tvg-name="63. DISCOVERY TLC FHD" group-title="CANALES EN VIVO",63. DISCOVERY TLC
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633387.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="64. DIACOVERY TURBO" group-title="CANALES EN VIVO",64. DIACOVERY TURBO
+#EXTINF:-1 tvg-id="" tvg-name="64. DIACOVERY TURBO SD" group-title="CANALES EN VIVO",64. DIACOVERY TURBO
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633389.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="65. DISCOVERY WORLD" group-title="CANALES EN VIVO",65. DISCOVERY WORLD
+#EXTINF:-1 tvg-id="" tvg-name="65. DISCOVERY WORLD FHD" group-title="CANALES EN VIVO",65. DISCOVERY WORLD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633391.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="66. H2 HD" group-title="CANALES EN VIVO",66. H2 HD
+#EXTINF:-1 tvg-id="" tvg-name="66. H2 SD" group-title="CANALES EN VIVO",66. H2 HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633394.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="67. HISTORY FHD" group-title="CANALES EN VIVO",67. HISTORY FHD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633398.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="68. HGTV HD" group-title="CANALES EN VIVO",68. HGTV HD
+#EXTINF:-1 tvg-id="" tvg-name="68. HGTV FHD" group-title="CANALES EN VIVO",68. HGTV HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633400.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="69. NATIONAL GEOGRAPHIC HD" group-title="CANALES EN VIVO",69. NATIONAL GEOGRAPHIC HD
-http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633402.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="69. NATIONAL GEOGRAPHIC FHD" group-title="CANALES EN VIVO",69. NATIONAL GEOGRAPHIC HD
+http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633402.m3u8.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="70. CARTOONITO FHD" group-title="CANALES EN VIVO",70. CARTOONITO FHD
 http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/4061
 
-#EXTINF:-1 tvg-id="" tvg-name="71. TOONCAST" group-title="CANALES EN VIVO",71. TOONCAST
+#EXTINF:-1 tvg-id="" tvg-name="71. TOONCAST SD" group-title="CANALES EN VIVO",71. TOONCAST
 http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/1155861
 
 #EXTINF:-1 tvg-id="" tvg-name="72. DISCOVERY KIDS FHD" group-title="CANALES EN VIVO",72. DISCOVERY KIDS FHD
@@ -226,8 +226,8 @@ http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/4063
 #EXTINF:-1 tvg-id="" tvg-name="74. DISNEY JR FHD" group-title="CANALES EN VIVO",74. DISNEY JR FHD
 http://23.137.84.107:8443/cg6011@hotmail.com/carlos6011/4111
 
-#EXTINF:-1 tvg-id="" tvg-name="75.  DISNEY CHANNEL" group-title="CANALES EN VIVO",75. MX DISNEY CHANNEL
+#EXTINF:-1 tvg-id="" tvg-name="75.  DISNEY CHANNEL FHD" group-title="CANALES EN VIVO",75. MX DISNEY CHANNEL
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/680434
 
-#EXTINF:-1 tvg-id="" tvg-name="76.  NICK" group-title="CANALES EN VIVO",76. MX NICK
+#EXTINF:-1 tvg-id="" tvg-name="76.  BITME SD" group-title="CANALES EN VIVO",76. MX NICK
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/680439
