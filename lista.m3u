@@ -110,7 +110,7 @@ http://181.78.49.81:8500/play/a019/index.m3u8
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577866
 
 #EXTINF:-1 tvg-id="" tvg-name="36. HBO 2 FHD" group-title="CANALES EN VIVO",36. HBO 2 HD
-http://181.78.197.59:8000/play/a07e/index.m3u8
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/63
 
 #EXTINF:-1 tvg-id="" tvg-name="37. HBO FAMILY FHD" group-title="CANALES EN VIVO",37. HBO FAMILY HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577869
@@ -119,7 +119,7 @@ http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577869
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577873
 
 #EXTINF:-1 tvg-id="" tvg-name="39. HBO POP FHD" group-title="CANALES EN VIVO",39. HBO POP HD
-http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577876
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/66
 
 #EXTINF:-1 tvg-id="" tvg-name="40. HBO XTREME FHD" group-title="CANALES EN VIVO",40. HBO XTREME HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577880
@@ -131,7 +131,7 @@ http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577882
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577884
 
 #EXTINF:-1 tvg-id="" tvg-name="43. CINE PREMIUM FHD" group-title="CANALES EN VIVO",43. CINE PREMIUM
-http://181.78.197.59:8000/play/a084/index.m3u8
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/93
 
 #EXTINF:-1 tvg-id="" tvg-name="44. SONY CHANNEL FHD" group-title="CANALES EN VIVO",44. SONY CHANNEL HD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577891
@@ -140,7 +140,7 @@ http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577891
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577893
 
 #EXTINF:-1 tvg-id="" tvg-name="46. SPACE FHD" group-title="CANALES EN VIVO",46. SPACE HD
-http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577895
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/78
 
 #EXTINF:-1 tvg-id="" tvg-name="47. STAR CHANNEL FHD" group-title="CANALES EN VIVO",47. STAR CHANNEL
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577897
@@ -149,7 +149,7 @@ http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577897
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/577909
 
 #EXTINF:-1 tvg-id="" tvg-name="49. TNT FHD" group-title="CANALES EN VIVO",49. TNT HD
-http://45.5.118.188:8000/play/a04k/index.m3u8
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/86
 
 #EXTINF:-1 tvg-id="" tvg-name="50. TNT NOVELAS FHD" group-title="CANALES EN VIVO",50. TNT NOVELAS HD
 http://190.93.229.30:8000/play/a0bm/index.m3u8?hls
@@ -179,7 +179,7 @@ http://45.5.118.188:8000/play/a04f/index.m3u8.ts
 http://181.78.197.59:8000/play/a06u/index.m3u8.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="59. DIACOVERY CHANNEL FHD" group-title="CANALES EN VIVO",59. DIACOVERY CHANNEL FHD
-http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633375.m3u8
+http://looknowsytes.com:25461/DALEPLAY/KEYCANALES/189
 
 #EXTINF:-1 tvg-id="" tvg-name="60. DISCOVERY HOME & HEALTH FHD" group-title="CANALES EN VIVO",60. DISCOVERY HOME & HEALTH HD
 http://tvq.lat:8080/live/rslamtv/SNA8mxMqqHLd/633379.m3u8
