@@ -1,0 +1,428 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="TVN HD" group-title="CANALES EN VIVO",01. TVN HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85364.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 13 HD" group-title="CANALES EN VIVO",02. CANAL 13 HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85116.ts
+#EXTINF:-1 tvg-id="" tvg-name="CHV HD" group-title="CANALES EN VIVO",03. CHV HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85104.ts
+#EXTINF:-1 tvg-id="" tvg-name="MEGA HD" group-title="CANALES EN VIVO",04. MEGA HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85272.ts
+#EXTINF:-1 tvg-id="" tvg-name="LA RED" group-title="CANALES EN VIVO",05. LA RED
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85263.ts
+#EXTINF:-1 tvg-id="" tvg-name="TV+ HD" group-title="CANALES EN VIVO",06. TV+ HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85359.ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL 24 HORAS HD" group-title="CANALES EN VIVO",07. CANAL 24 HORAS HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85117.ts
+#EXTINF:-1 tvg-id="" tvg-name="CNN CHILE" group-title="CANALES EN VIVO",08. CNN CHILE
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85105.ts
+#EXTINF:-1 tvg-id="" tvg-name="13 C" group-title="CANALES EN VIVO",09. 13 C
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85074.ts
+#EXTINF:-1 tvg-id="" tvg-name="REC TV" group-title="CANALES EN VIVO",10. REC TV
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85312.ts
+#EXTINF:-1 tvg-id="" tvg-name="TNT SPORTS" group-title="CANALES EN VIVO",11. TNT SPORTS
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85343.ts
+#EXTINF:-1 tvg-id="" tvg-name="TNT SPORTS PREMIUM SD" group-title="CANALES EN VIVO",12. TNT SPORTS PREMIUM SD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/9182.ts
+#EXTINF:-1 tvg-id="" tvg-name="ESPN HD" group-title="CANALES EN VIVO",13. ESPN HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85190.ts
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 2 HD" group-title="CANALES EN VIVO",14. ESPN 2 HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85174.ts
+#EXTINF:-1 tvg-id="" tvg-name="ESPN HD 3" group-title="CANALES EN VIVO",15. ESPN HD 3
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85191.ts
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 4 HD" group-title="CANALES EN VIVO",16. ESPN 4 HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85181.ts
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 5 HD" group-title="CANALES EN VIVO",17. ESPN 5 HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85183.ts
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 6" group-title="CANALES EN VIVO",18. ESPN 6
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85185.ts
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 7 HD" group-title="CANALES EN VIVO",19. ESPN 7 HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/1624826.ts
+#EXTINF:-1 tvg-id="" tvg-name="ESPN PREMIUM HD" group-title="CANALES EN VIVO",20. ESPN PREMIUM HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85196.ts
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY CHANNEL" group-title="CANALES EN VIVO",21. DISCOVERY CHANNEL
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85145.ts
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY WORLD HD" group-title="CANALES EN VIVO",22. DISCOVERY WORLD HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85161.ts
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY THEATER HD" group-title="CANALES EN VIVO",23. DISCOVERY THEATER HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85155.ts
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY SCIENCE" group-title="CANALES EN VIVO",24. DISCOVERY SCIENCE
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85154.ts
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY TURBO" group-title="CANALES EN VIVO",25. DISCOVERY TURBO
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85157.ts
+#EXTINF:-1 tvg-id="" tvg-name="HISTORY CHANNEL" group-title="CANALES EN VIVO",26. HISTORY CHANNEL
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85256.ts
+#EXTINF:-1 tvg-id="" tvg-name="HISTORY 2" group-title="CANALES EN VIVO",27. HISTORY 2
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/1624880.ts
+#EXTINF:-1 tvg-id="" tvg-name="ANIMAL PLANET HD" group-title="CANALES EN VIVO",28. ANIMAL PLANET HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/1624865.ts
+#EXTINF:-1 tvg-id="" tvg-name="INVESTIGATION DISCOVERY HD" group-title="CANALES EN VIVO",29. INVESTIGATION DISCOVERY HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85260.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO HD" group-title="CANALES EN VIVO",30. HBO HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85237.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO FAMILY HD" group-title="CANALES EN VIVO",31. HBO FAMILY HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85236.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO POP HD" group-title="CANALES EN VIVO",32. HBO POP HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85241.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO PLUS HD" group-title="CANALES EN VIVO",33. HBO PLUS HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85243.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" group-title="CANALES EN VIVO",34. HBO SIGNATURE
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85245.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO XTREME HD" group-title="CANALES EN VIVO",35. HBO XTREME HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85247.ts
+#EXTINF:-1 tvg-id="" tvg-name="STAR CHANNEL HD" group-title="CANALES EN VIVO",36. STAR CHANNEL HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85319.ts
+#EXTINF:-1 tvg-id="" tvg-name="TNT HD" group-title="CANALES EN VIVO",37. TNT HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85340.ts
+#EXTINF:-1 tvg-id="" tvg-name="TNT SERIES HD" group-title="CANALES EN VIVO",38. TNT SERIES HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85347.ts
+#EXTINF:-1 tvg-id="" tvg-name="WARNER CHANNEL HD" group-title="CANALES EN VIVO",39. WARNER CHANNEL HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85406.ts
+#EXTINF:-1 tvg-id="" tvg-name="UNIVERSAL CHANNEL HD" group-title="CANALES EN VIVO",40. UNIVERSAL CHANNEL HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85391.ts
+#EXTINF:-1 tvg-id="" tvg-name="STUDIO UNIVERSAL HD" group-title="CANALES EN VIVO",41. STUDIO UNIVERSAL HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85330.ts
+#EXTINF:-1 tvg-id="" tvg-name="SPACE HD" group-title="CANALES EN VIVO",42. SPACE HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85327.ts
+#EXTINF:-1 tvg-id="" tvg-name="FX HD" group-title="CANALES EN VIVO",43. FX HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85217.ts
+#EXTINF:-1 tvg-id="" tvg-name="AXN HD" group-title="CANALES EN VIVO",44. AXN HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85087.ts
+#EXTINF:-1 tvg-id="" tvg-name="SONY HD" group-title="CANALES EN VIVO",45. SONY HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85324.ts
+#EXTINF:-1 tvg-id="" tvg-name="CINECANAL HD" group-title="CANALES EN VIVO",46. CINECANAL HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85132.ts
+#EXTINF:-1 tvg-id="" tvg-name="GOLDEN HD" group-title="CANALES EN VIVO",47. GOLDEN HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85230.ts
+#EXTINF:-1 tvg-id="" tvg-name="CINEMAX" group-title="CANALES EN VIVO",48. CINEMAX
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85134.ts
+#EXTINF:-1 tvg-id="" tvg-name="A&E HD" group-title="CANALES EN VIVO",49. A&E HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/1624853.ts
+#EXTINF:-1 tvg-id="" tvg-name="AMC HD" group-title="CANALES EN VIVO",50. AMC HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85081.ts
+#EXTINF:-1 tvg-id="" tvg-name="DHE HD" group-title="CANALES EN VIVO",51. DHE HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85141.ts
+#EXTINF:-1 tvg-id="" tvg-name="TNT NOVELAS HD" group-title="CANALES EN VIVO",52. TNT NOVELAS HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85342.ts
+#EXTINF:-1 tvg-id="" tvg-name="CARTOON NETWORK HD" group-title="CANALES EN VIVO",53. CARTOON NETWORK HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85127.ts
+#EXTINF:-1 tvg-id="" tvg-name="CARTOONITO" group-title="CANALES EN VIVO",54. CARTOONITO
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85129.ts
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY CHANNEL HD" group-title="CANALES EN VIVO",55. DISNEY CHANNEL HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85162.ts
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY HD" group-title="CANALES EN VIVO",56. DISNEY HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85164.ts
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY KIDS HD" group-title="CANALES EN VIVO",57. DISCOVERY KIDS HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85153.ts
+#EXTINF:-1 tvg-id="" tvg-name="ZONA LATINA" group-title="CANALES EN VIVO",58. ZONA LATINA
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85430.ts
+#EXTINF:-1 tvg-id="" tvg-name="EL GOURMET HD" group-title="CANALES EN VIVO",59. EL GOURMET HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/1617046.ts
+#EXTINF:-1 tvg-id="" tvg-name="HOLA TV HD" group-title="CANALES EN VIVO",60. HOLA TV HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/1624886.ts
+#EXTINF:-1 tvg-id="" tvg-name="SUN CHANNEL HD" group-title="CANALES EN VIVO",61. SUN CHANNEL HD
+#EXTVLCOPT:network-caching=250
+#EXTVLCOPT:live-caching=150
+#EXTVLCOPT:http-reconnect=true
+#EXTVLCOPT:http-keepalive=true
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+http://noatv.xyz:8080/live/88339/88339/85333.ts
