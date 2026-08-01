@@ -76,7 +76,7 @@ http://noatv.xyz:8080/live/88339/88339/85312.ts
 #EXTVLCOPT:http-keepalive=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 http://noatv.xyz:8080/live/88339/88339/85343.ts
-#EXTINF:-1 tvg-id="" tvg-name="TNT SPORTS PREMIUM SD" group-title="CANALES EN VIVO",12. TNT SPORTS PREMIUM SD
+#EXTINF:-1 tvg-id="" tvg-name="TNT SPORTS PREMIUM S" group-title="CANALES EN VIVO",12. TNT SPORTS PREMIUM FHD
 #EXTVLCOPT:network-caching=250
 #EXTVLCOPT:live-caching=150
 #EXTVLCOPT:http-reconnect=true
