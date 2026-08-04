@@ -1,391 +1,106 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="SUR (Sur América)",1. TVN SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",1. TVN SUR
 http://noatv.xyz:8080/live/88339/88339/85362.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",2. TVN HD SUR
-http://noatv.xyz:8080/live/88339/88339/85364.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",3. MEGA SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",2. MEGA SUR
 http://noatv.xyz:8080/live/88339/88339/85271.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",4. MEGA HD SUR
-http://noatv.xyz:8080/live/88339/88339/85272.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",5. Canal 13 SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",3. Canal 13 SUR
 http://noatv.xyz:8080/live/88339/88339/85114.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",6. Canal 13 HD SUR
-http://noatv.xyz:8080/live/88339/88339/85116.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",7. CHV SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",4. CHV SUR
 http://noatv.xyz:8080/live/88339/88339/85102.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",8. CHV HD SUR
-http://noatv.xyz:8080/live/88339/88339/85104.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",9. CNN Chile SUR
-http://noatv.xyz:8080/live/88339/88339/85105.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",10. TV+ SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",5. TV+ SUR
 http://noatv.xyz:8080/live/88339/88339/85358.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",11. TV+ HD SUR
-http://noatv.xyz:8080/live/88339/88339/85359.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",12. REC TV SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",6. REC TV SUR
 http://noatv.xyz:8080/live/88339/88339/85312.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",13. Zona Latina SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",7. Zona Latina SUR
 http://noatv.xyz:8080/live/88339/88339/85430.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",14. Via X SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",8. Via X SUR
 http://noatv.xyz:8080/live/88339/88339/85399.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",15. Via X Sports SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",9. Via X Sports SUR
 http://noatv.xyz:8080/live/88339/88339/85400.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",16. ETC TV SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",10. ETC TV SUR
 http://noatv.xyz:8080/live/88339/88339/85200.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",17. TNT Sports SUR
-http://noatv.xyz:8080/live/88339/88339/85343.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",18. TNT Sports Premium HD SUR
-http://noatv.xyz:8080/live/88339/88339/85344.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",19. ESPN 2 HD SUR
-http://noatv.xyz:8080/live/88339/88339/85176.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",20. ESPN 3 HD SUR
-http://noatv.xyz:8080/live/88339/88339/85178.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",21. ESPN 4 HD SUR
-http://noatv.xyz:8080/live/88339/88339/85181.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",22. ESPN 5 HD SUR
-http://noatv.xyz:8080/live/88339/88339/85183.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",23. ESPN 6 HD SUR
-http://noatv.xyz:8080/live/88339/88339/85187.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",24. ESPN Premium HD SUR
-http://noatv.xyz:8080/live/88339/88339/85196.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",25. ESPN ARG
-http://noatv.xyz:8080/live/88339/88339/12574.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",26. ESPN HD ARG
-http://noatv.xyz:8080/live/88339/88339/85867.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",27. ESPN 2 ARG
-http://noatv.xyz:8080/live/88339/88339/85862.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",28. ESPN 2 HD ARG
-http://noatv.xyz:8080/live/88339/88339/12587.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",29. ESPN 3 ARG
-http://noatv.xyz:8080/live/88339/88339/85864.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",30. ESPN 3 HD ARG
-http://noatv.xyz:8080/live/88339/88339/1626254.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",31. ESPN 4 HD ARG
-http://noatv.xyz:8080/live/88339/88339/1626257.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",32. ESPN Premium ARG
-http://noatv.xyz:8080/live/88339/88339/968047.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",33. ESPN 2 CA
-http://noatv.xyz:8080/live/88339/88339/85535.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",34. ESPN 2 HD CA
-http://noatv.xyz:8080/live/88339/88339/85536.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",35. ESPN 3 CA
-http://noatv.xyz:8080/live/88339/88339/85537.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",36. ESPN 3 HD CA
-http://noatv.xyz:8080/live/88339/88339/85538.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",37. ESPN 4 CA
-http://noatv.xyz:8080/live/88339/88339/85539.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",38. ESPN 4 HD CA
-http://noatv.xyz:8080/live/88339/88339/85534.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",39. ESPN 5 CA
-http://noatv.xyz:8080/live/88339/88339/1624592.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",40. ESPN 5 HD CA
-http://noatv.xyz:8080/live/88339/88339/85541.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",41. ESPN 6 CA
-http://noatv.xyz:8080/live/88339/88339/85542.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",42. ESPN 6 HD CA
-http://noatv.xyz:8080/live/88339/88339/85543.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",43. ESPN 2 SC
-http://noatv.xyz:8080/live/88339/88339/86117.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",44. ESPN 3 SC
-http://noatv.xyz:8080/live/88339/88339/86121.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",45. ESPN 4 HD SC
-http://noatv.xyz:8080/live/88339/88339/1783025.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",46. ESPN 5 SC
-http://noatv.xyz:8080/live/88339/88339/86122.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",47. ESPN 6 SC
-http://noatv.xyz:8080/live/88339/88339/86126.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",48. ESPN 7 HD SC
-http://noatv.xyz:8080/live/88339/88339/1783028.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",49. ESPN Premium SC
-http://noatv.xyz:8080/live/88339/88339/86129.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",50. ESPN SC
-http://noatv.xyz:8080/live/88339/88339/86114.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",51. HBO HD SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",11. HBO HD SUR
 http://noatv.xyz:8080/live/88339/88339/85237.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",52. HBO 2 SUR
-http://noatv.xyz:8080/live/88339/88339/85234.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",53. HBO Family HD SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",12. HBO Family HD SUR
 http://noatv.xyz:8080/live/88339/88339/85236.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",54. HBO XTREME HD SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",13. HBO XTREME HD SUR
 http://noatv.xyz:8080/live/88339/88339/85247.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",55. Cinemax SUR
-http://noatv.xyz:8080/live/88339/88339/85134.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",56. STAR CHANNEL SUR
-http://noatv.xyz:8080/live/88339/88339/85317.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",57. STAR CHANNEL HD SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",14. STAR CHANNEL HD SUR
 http://noatv.xyz:8080/live/88339/88339/85319.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",58. Warner Channel SUR
-http://noatv.xyz:8080/live/88339/88339/1624850.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",59. Warner Channel HD SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",15. Warner Channel HD SUR
 http://noatv.xyz:8080/live/88339/88339/85406.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",60. Sony SUR
-http://noatv.xyz:8080/live/88339/88339/85323.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",61. Sony HD SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",16. Sony HD SUR
 http://noatv.xyz:8080/live/88339/88339/85324.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",62. AXN SUR
-http://noatv.xyz:8080/live/88339/88339/85086.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",63. AXN HD SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",17. AXN HD SUR
 http://noatv.xyz:8080/live/88339/88339/85087.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",64. A&E SUR
-http://noatv.xyz:8080/live/88339/88339/85080.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",65. A&E HD SUR
+#EXTINF:-1 group-title="TELEVISION EN VIVO",18. A&E HD SUR
 http://noatv.xyz:8080/live/88339/88339/85078.m3u8
 
-#EXTINF:-1 group-title="SUR (Sur América)",66. Universal SUR
-http://noatv.xyz:8080/live/88339/88339/85394.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",67. Studio Universal HD SUR
-http://noatv.xyz:8080/live/88339/88339/85330.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",68. USA SUR
-http://noatv.xyz:8080/live/88339/88339/85393.m3u8
-
-#EXTINF:-1 group-title="SUR (Sur América)",69. Telemundo SUR
-http://noatv.xyz:8080/live/88339/88339/85377.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",70. A&E Mundo SC
-http://noatv.xyz:8080/live/88339/88339/86048.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",71. AXN SC
-http://noatv.xyz:8080/live/88339/88339/86052.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",72. AXN HD SC
+#EXTINF:-1 group-title="TELEVISION EN VIVO",19. AXN HD SC
 http://noatv.xyz:8080/live/88339/88339/1783016.m3u8
 
-#EXTINF:-1 group-title="SC (Colombia)",73. Canal Caracol SC
-http://noatv.xyz:8080/live/88339/88339/250256.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",74. Canal RCN SC
-http://noatv.xyz:8080/live/88339/88339/86079.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",75. Discovery Channel SC
-http://noatv.xyz:8080/live/88339/88339/86098.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",76. Discovery Channel HD SC
-http://noatv.xyz:8080/live/88339/88339/1783022.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",77. HBO SC
-http://noatv.xyz:8080/live/88339/88339/86147.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",78. HBO 2 SC
-http://noatv.xyz:8080/live/88339/88339/86149.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",79. HBO Family SC
-http://noatv.xyz:8080/live/88339/88339/86151.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",80. HBO Plus SC
-http://noatv.xyz:8080/live/88339/88339/86153.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",81. HBO Xtreme SC
-http://noatv.xyz:8080/live/88339/88339/86155.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",82. A&E CA
-http://noatv.xyz:8080/live/88339/88339/9376.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",83. A&E HD CA
-http://noatv.xyz:8080/live/88339/88339/85441.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",84. AMC CA
-http://noatv.xyz:8080/live/88339/88339/85443.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",85. AMC HD CA
-http://noatv.xyz:8080/live/88339/88339/85444.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",86. AXN CA
-http://noatv.xyz:8080/live/88339/88339/85445.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",87. AXN HD CA
-http://noatv.xyz:8080/live/88339/88339/85446.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",88. TNT CA
-http://noatv.xyz:8080/live/88339/88339/85643.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",89. TNT HD CA
-http://noatv.xyz:8080/live/88339/88339/8973.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",90. Warner CA
-http://noatv.xyz:8080/live/88339/88339/85675.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",91. Warner HD CA
+#EXTINF:-1 group-title="TELEVISION EN VIVO",20. Warner HD CA
 http://noatv.xyz:8080/live/88339/88339/85674.m3u8
 
-#EXTINF:-1 group-title="CA (Centroamérica)",92. Sony CA
-http://noatv.xyz:8080/live/88339/88339/85624.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",93. Sony HD CA
+#EXTINF:-1 group-title="TELEVISION EN VIVO",21. Sony HD CA
 http://noatv.xyz:8080/live/88339/88339/85625.m3u8
 
-#EXTINF:-1 group-title="CA (Centroamérica)",94. Space CA
-http://noatv.xyz:8080/live/88339/88339/85626.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",95. Space HD CA
+#EXTINF:-1 group-title="TELEVISION EN VIVO",22. Space HD CA
 http://noatv.xyz:8080/live/88339/88339/85627.m3u8
 
-#EXTINF:-1 group-title="CA (Centroamérica)",96. Star Channel CA
-http://noatv.xyz:8080/live/88339/88339/85628.m3u8
-
-#EXTINF:-1 group-title="CA (Centroamérica)",97. Star Channel HD CA
+#EXTINF:-1 group-title="TELEVISION EN VIVO",23. Star Channel HD CA
 http://noatv.xyz:8080/live/88339/88339/85629.m3u8
 
-#EXTINF:-1 group-title="CA (Centroamérica)",98. Studio Universal CA
-http://noatv.xyz:8080/live/88339/88339/85635.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",24. TNT Sports Premium HD SUR
+http://noatv.xyz:8080/live/88339/88339/85344.m3u8
 
-#EXTINF:-1 group-title="CA (Centroamérica)",99. Telemundo CA
-http://noatv.xyz:8080/live/88339/88339/85655.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",25. ESPN 2 HD SUR
+http://noatv.xyz:8080/live/88339/88339/85176.m3u8
 
-#EXTINF:-1 group-title="CA (Centroamérica)",100. Telemundo HD CA
-http://noatv.xyz:8080/live/88339/88339/85656.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",26. ESPN 3 HD SUR
+http://noatv.xyz:8080/live/88339/88339/85178.m3u8
 
-#EXTINF:-1 group-title="CA (Centroamérica)",101. Universal CA
-http://noatv.xyz:8080/live/88339/88339/85670.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",27. ESPN 4 HD SUR
+http://noatv.xyz:8080/live/88339/88339/85181.m3u8
 
-#EXTINF:-1 group-title="ARG (Argentina)",102. A&E ARG
-http://noatv.xyz:8080/live/88339/88339/1626242.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",28. ESPN 5 HD SUR
+http://noatv.xyz:8080/live/88339/88339/85183.m3u8
 
-#EXTINF:-1 group-title="ARG (Argentina)",103. A&E HD ARG
-http://noatv.xyz:8080/live/88339/88339/85820.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",29. ESPN 6 HD SUR
+http://noatv.xyz:8080/live/88339/88339/85187.m3u8
 
-#EXTINF:-1 group-title="ARG (Argentina)",104. AMC ARG
-http://noatv.xyz:8080/live/88339/88339/85823.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",30. ESPN Premium HD SUR
+http://noatv.xyz:8080/live/88339/88339/85196.m3u8
 
-#EXTINF:-1 group-title="ARG (Argentina)",105. AXN ARG
-http://noatv.xyz:8080/live/88339/88339/1626248.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",31. ESPN 2 SC
+http://noatv.xyz:8080/live/88339/88339/86117.m3u8
 
-#EXTINF:-1 group-title="ARG (Argentina)",106. AXN HD ARG
-http://noatv.xyz:8080/live/88339/88339/85825.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",32. ESPN 3 SC
+http://noatv.xyz:8080/live/88339/88339/86121.m3u8
 
-#EXTINF:-1 group-title="ARG (Argentina)",107. HBO ARG
-http://noatv.xyz:8080/live/88339/88339/85887.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",33. ESPN 4 HD SC
+http://noatv.xyz:8080/live/88339/88339/1783025.m3u8
 
-#EXTINF:-1 group-title="ARG (Argentina)",108. HBO 2 ARG
-http://noatv.xyz:8080/live/88339/88339/85888.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",34. ESPN Premium SC
+http://noatv.xyz:8080/live/88339/88339/86129.m3u8
 
-#EXTINF:-1 group-title="ARG (Argentina)",109. HBO Family ARG
-http://noatv.xyz:8080/live/88339/88339/85889.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",110. HBO Plus ARG
-http://noatv.xyz:8080/live/88339/88339/85892.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",111. HBO Xtreme ARG
-http://noatv.xyz:8080/live/88339/88339/85894.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",112. Space ARG
-http://noatv.xyz:8080/live/88339/88339/85922.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",113. Space HD ARG
-http://noatv.xyz:8080/live/88339/88339/85923.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",114. Star Channel ARG
-http://noatv.xyz:8080/live/88339/88339/85924.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",115. Star Channel HD ARG
-http://noatv.xyz:8080/live/88339/88339/85925.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",116. Studio Universal ARG
-http://noatv.xyz:8080/live/88339/88339/85926.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",117. TNT ARG
-http://noatv.xyz:8080/live/88339/88339/85931.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",118. TNT HD ARG
-http://noatv.xyz:8080/live/88339/88339/85932.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",119. TNT Sports HD ARG
-http://noatv.xyz:8080/live/88339/88339/85936.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",120. Universal ARG
-http://noatv.xyz:8080/live/88339/88339/1626266.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",121. Universal HD ARG
-http://noatv.xyz:8080/live/88339/88339/85948.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",122. USA Network ARG
-http://noatv.xyz:8080/live/88339/88339/85946.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",123. Warner Channel ARG
-http://noatv.xyz:8080/live/88339/88339/8992.m3u8
-
-#EXTINF:-1 group-title="ARG (Argentina)",124. Warner Channel HD ARG
-http://noatv.xyz:8080/live/88339/88339/85957.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",125. TNT SC
-http://noatv.xyz:8080/live/88339/88339/86212.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",126. TNT HD SC
-http://noatv.xyz:8080/live/88339/88339/1783061.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",127. TNT Sports SC
-http://noatv.xyz:8080/live/88339/88339/86216.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",128. TNT Sports Premium SC
-http://noatv.xyz:8080/live/88339/88339/86219.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",129. Space SC
-http://noatv.xyz:8080/live/88339/88339/86202.m3u8
-
-#EXTINF:-1 group-title="SC (Colombia)",130. Space HD SC
-http://noatv.xyz:8080/live/88339/88339/1783055.m3u8
+#EXTINF:-1 group-title="TELEVISION EN VIVO",35. CNN Chile SUR
+http://noatv.xyz:8080/live/88339/88339/85105.m3u8
