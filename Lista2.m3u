@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:-1 group-title="SC (Colombia)",24 Horas
-http://noatv.xyz:8080/live/88339/88339/1626490.m3u8
+http://noatv.xyz:8080/live/88339/88339/1626490.ts
 #EXTINF:-1 group-title="SC (Colombia)",A&E Mundo SC
 http://noatv.xyz:8080/live/88339/88339/86048.m3u8
 #EXTINF:-1 group-title="SC (Colombia)",America TV PY SC
