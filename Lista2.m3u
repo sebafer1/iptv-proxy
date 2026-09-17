@@ -1,437 +1,220 @@
-
 #EXTM3U
 
 #EXTINF:-1 group-title="CANALES EN VIVO"
 
 #EXTINF:-1 group-title="CANALES EN VIVO",CHV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85104.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Canal 13
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85116.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TVN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85364.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",MEGA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85272.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Canal 24 Horas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85117.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TV+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85359.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",La Red
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85263.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",13 C
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85074.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Via X
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85399.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Zona Latina
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85430.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",CNN Internacional
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85466.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",CNN International
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85109.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",CNN Espanol
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85107.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TNT Sports Premium
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85344.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TNT Sports Premium
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/86219.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Golf Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85561.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Via X Sports
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85400.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ESPN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1624832.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ESPN 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85174.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ESPN 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85178.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ESPN 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85181.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ESPN 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85183.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ESPN 6
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85187.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ESPN 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1624826.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ESPN PREMIUM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/968047.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TyC Sports
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85945.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",AXN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85087.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Cinecanal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85132.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",CINEMA DINAMITA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/8895.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Cinemax
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85134.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Clover
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85137.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",De Peliculas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85144.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",De Peliculas Clasicc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/781612.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",DHE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85141.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Europa Europa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85215.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",STAR CHANNEL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85319.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",FX
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85217.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Golden
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85230.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Golden Edge
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85229.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Golden Premiere
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85559.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Golden Premiere 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85558.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HBO
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85237.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HBO 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/86149.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HBO Family
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85236.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HBO MUNDI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85239.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HBO POP
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85241.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HBO Signature
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85245.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HBO XTREME
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85247.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HBO Plus
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85567.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Multipremier
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85592.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Panico
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1750660.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Paramount
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85912.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Sony
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85324.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Sony Movies
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85633.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Space
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85327.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Studio Universal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85330.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TNT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85340.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TNT Novelas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85342.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TNT Series
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85347.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",UNIVERSAL CHANNEL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85391.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Universal Cinema
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1626496.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",UNIVERSAL COMEDY
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85665.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",UNIVERSAL CRIME
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85666.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",UNIVERSAL PREMIERE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85667.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",UNIVERSAL REALITY
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85669.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",USA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85393.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Warner TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1783064.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",A&E
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85078.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Animal Planet
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1624865.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Comedy Central
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85844.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Discovery Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85146.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Discovery H&H
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85149.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Investigation Discovery
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85260.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Discovery Science
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85154.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Discovery Theater
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85155.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Discovery Turbo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85157.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Discovery World
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85161.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Distrito Comedia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85166.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",E Entertainment
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/86109.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Film & arts
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85555.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Food Network
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85221.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",El Gourmet
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1617046.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",HGTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85250.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",History
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85574.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",History 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1624880.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Hola TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1624886.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Kanal D Drama
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85261.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Love Nature
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85270.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",National Geographic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85287.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",NatGeo Mundo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/775134.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Pasiones
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85303.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Sun Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85333.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",TLC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/86210.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",UNICABLE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/17403.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Baby First
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/86060.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Baby TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85099.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Cartoon Network
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85127.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Cartoonito
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85129.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Discovery Kids
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85153.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Disney Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85162.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Disney JR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1626493.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Dreamworks
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/144392.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",NICK JR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/9626.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Nickelodeon
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/1975704.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Pakapaka
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85910.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",SEMILLITAS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85623.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",Tooncast
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85662.ts
 #EXTINF:-1 group-title="CANALES EN VIVO",ZooMoo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://noatv.xyz/
 http://noatv.xyz:8080/live/Grover123/Grover123/85757.ts
