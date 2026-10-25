@@ -4,7 +4,7 @@
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 
 #EXTINF:-1 tvg-id="" tvg-name="1. CANAL 13 FHD" group-title="CANALES EN VIVO",1. megatv HD
-https://g10.bemtv.cn/STREAM/22842/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjQvMjAyNiAxNDowNTo1MyBQTTMmZmFpbF91cmxfdHlwZT0mZXhwX3RpbWU9JnN0cmVhbV9uYW1lPSZzc3dfaXA9JnN1YnNjaXJiZXJfaWQ9JnNlc3Npb25faWQ9JnZpZXdlcl9pcD01OC4yMjQ1VU1Vndpd22p2RGN5nRGlNam11ZVdOTqNQerStJ.4b4e41454e40474a408544
+http://g10.bemtv.cn/STREAM/22842/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjQvMjAyNiAxNDowNTo1MyBQTTMmZmFpbF91cmxfdHlwZT0mZXhwX3RpbWU9JnN0cmVhbV9uYW1lPSZzc3dfaXA9JnN1YnNjaXJiZXJfaWQ9JnNlc3Npb25faWQ9JnZpZXdlcl9pcD01OC4yMjQ1VU1Vndpd22p2RGN5nRGlNam11ZVdOTqNQerStJ.4b4e41454e40474a408544
 
 #EXTINF:-1 tvg-id="" tvg-name="2. CHILEVISION FHD" group-title="CANALES EN VIVO",2. CHILEVISION FHD
 http://tvq.lat:8080/rslamtv/SNA8mxMqqHLd/288540
